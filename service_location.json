@@ -1,0 +1,16 @@
+{
+  "firmendaten": {
+    "name": "Volkner Mobil GmbH",
+    "adresse": {
+      "strasse": "Simonsh\u00f6fchen 41",
+      "stadt": "Wuppertal",
+      "plz": "42327",
+      "land": "Deutschland"
+    },
+    "koordinaten": {
+      "latitude": 51.2454,
+      "longitude": 7.1173
+    },
+    "info": "Zentrales Service Center f\u00fcr Wartung, Diagnose und Support."
+  }
+}
