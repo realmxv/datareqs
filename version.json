@@ -1,0 +1,19 @@
+{
+  "app_version": "1.0.0",
+  "build": 103,
+  "last_updated": "2025-04-04 10:18:20",
+  "min_required_app_version": "1.0.0",
+  "min_supported_ios_version": "15.0",
+  "min_supported_ipados_version": "15.0",
+  "config_version": "2025-04-04",
+  "config_checksum": "c8b129fae5c4d823",
+  "config_source_url": "https://raw.githubusercontent.com/realmxv/datacontent/main/configuration.json",
+  "assets": {
+    "icon_set_version": "1.0.0",
+    "last_icon_update": "2025-04-04",
+    "icon_preview_url": "https://raw.githubusercontent.com/realmxv/datacontent/main/assets/icons/"
+  },
+  "update_required": false,
+  "update_type": "optional",
+  "release_channel": "stable"
+}
