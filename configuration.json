@@ -2,7 +2,7 @@
   "vm001": {
     "vehiclename": "perfection",
     "features": {
-      "batteriesystem": "mastervolt",
+      "batteriesystem": "victron",
       "batteriekapazitaet": 50,
       "wasserfilter": true,
       "drucksensorwallout": false,
@@ -14,7 +14,7 @@
   "vm002": {
     "vehiclename": "perfection",
     "features": {
-      "batteriesystem": "mastervolt",
+      "batteriesystem": "victron",
       "batteriekapazitaet": 50,
       "wasserfilter": true,
       "drucksensorwallout": false,
@@ -26,7 +26,7 @@
   "vm003": {
     "vehiclename": "perfection",
     "features": {
-      "batteriesystem": "mastervolt",
+      "batteriesystem": "victron",
       "batteriekapazitaet": 50,
       "wasserfilter": true,
       "drucksensorwallout": false,
@@ -38,7 +38,7 @@
   "vm004": {
     "vehiclename": "perfection",
     "features": {
-      "batteriesystem": "mastervolt",
+      "batteriesystem": "victron",
       "batteriekapazitaet": 50,
       "wasserfilter": true,
       "drucksensorwallout": false,
@@ -50,7 +50,7 @@
   "vm005": {
     "vehiclename": "perfection",
     "features": {
-      "batteriesystem": "mastervolt",
+      "batteriesystem": "victron",
       "batteriekapazitaet": 50,
       "wasserfilter": true,
       "drucksensorwallout": false,
@@ -74,7 +74,7 @@
   "vm007": {
     "vehiclename": "perfection",
     "features": {
-      "batteriesystem": "mastervolt",
+      "batteriesystem": "victron",
       "batteriekapazitaet": 50,
       "wasserfilter": true,
       "drucksensorwallout": false,
@@ -86,7 +86,7 @@
   "vm008": {
     "vehiclename": "perfection",
     "features": {
-      "batteriesystem": "mastervolt",
+      "batteriesystem": "victron",
       "batteriekapazitaet": 50,
       "wasserfilter": true,
       "drucksensorwallout": false,
@@ -98,7 +98,7 @@
   "vm009": {
     "vehiclename": "perfection",
     "features": {
-      "batteriesystem": "mastervolt",
+      "batteriesystem": "victron",
       "batteriekapazitaet": 50,
       "wasserfilter": true,
       "drucksensorwallout": false,
@@ -110,19 +110,19 @@
   "vm010": {
     "vehiclename": "perfection",
     "features": {
-      "batteriesystem": "mastervolt",
+      "batteriesystem": "victron",
       "batteriekapazitaet": 50,
       "wasserfilter": true,
       "drucksensorwallout": false,
       "tankgeber": "drucksensoren",
       "dieseltanksensor": false,
-      "wasserpumpe": "grundfoss"
+      "wasserpumpe": "dab"
     }
   },
   "vm011": {
     "vehiclename": "perfection",
     "features": {
-      "batteriesystem": "mastervolt",
+      "batteriesystem": "victron",
       "batteriekapazitaet": 50,
       "wasserfilter": true,
       "drucksensorwallout": false,
