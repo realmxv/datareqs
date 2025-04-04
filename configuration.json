@@ -1,1 +1,246 @@
-
+{
+  "vm001": {
+    "vehiclename": "perfection",
+    "features": {
+      "batteriesystem": "mastervolt",
+      "batteriekapazitaet": 50,
+      "wasserfilter": true,
+      "drucksensorwallout": false,
+      "tankgeber": "drucksensoren",
+      "dieseltanksensor": false,
+      "wasserpumpe": "grundfoss"
+    }
+  },
+  "vm002": {
+    "vehiclename": "perfection",
+    "features": {
+      "batteriesystem": "mastervolt",
+      "batteriekapazitaet": 50,
+      "wasserfilter": true,
+      "drucksensorwallout": false,
+      "tankgeber": "drucksensoren",
+      "dieseltanksensor": false,
+      "wasserpumpe": "grundfoss"
+    }
+  },
+  "vm003": {
+    "vehiclename": "perfection",
+    "features": {
+      "batteriesystem": "mastervolt",
+      "batteriekapazitaet": 50,
+      "wasserfilter": true,
+      "drucksensorwallout": false,
+      "tankgeber": "drucksensoren",
+      "dieseltanksensor": false,
+      "wasserpumpe": "grundfoss"
+    }
+  },
+  "vm004": {
+    "vehiclename": "perfection",
+    "features": {
+      "batteriesystem": "mastervolt",
+      "batteriekapazitaet": 50,
+      "wasserfilter": true,
+      "drucksensorwallout": false,
+      "tankgeber": "drucksensoren",
+      "dieseltanksensor": false,
+      "wasserpumpe": "grundfoss"
+    }
+  },
+  "vm005": {
+    "vehiclename": "perfection",
+    "features": {
+      "batteriesystem": "mastervolt",
+      "batteriekapazitaet": 50,
+      "wasserfilter": true,
+      "drucksensorwallout": false,
+      "tankgeber": "drucksensoren",
+      "dieseltanksensor": false,
+      "wasserpumpe": "grundfoss"
+    }
+  },
+  "vm006": {
+    "vehiclename": "perfection",
+    "features": {
+      "batteriesystem": "victron",
+      "batteriekapazitaet": 25,
+      "wasserfilter": true,
+      "drucksensorwallout": true,
+      "tankgeber": "drucksensoren",
+      "dieseltanksensor": false,
+      "wasserpumpe": "grundfoss"
+    }
+  },
+  "vm007": {
+    "vehiclename": "perfection",
+    "features": {
+      "batteriesystem": "mastervolt",
+      "batteriekapazitaet": 50,
+      "wasserfilter": true,
+      "drucksensorwallout": false,
+      "tankgeber": "drucksensoren",
+      "dieseltanksensor": false,
+      "wasserpumpe": "grundfoss"
+    }
+  },
+  "vm008": {
+    "vehiclename": "perfection",
+    "features": {
+      "batteriesystem": "mastervolt",
+      "batteriekapazitaet": 50,
+      "wasserfilter": true,
+      "drucksensorwallout": false,
+      "tankgeber": "drucksensoren",
+      "dieseltanksensor": false,
+      "wasserpumpe": "grundfoss"
+    }
+  },
+  "vm009": {
+    "vehiclename": "perfection",
+    "features": {
+      "batteriesystem": "mastervolt",
+      "batteriekapazitaet": 50,
+      "wasserfilter": true,
+      "drucksensorwallout": false,
+      "tankgeber": "drucksensoren",
+      "dieseltanksensor": false,
+      "wasserpumpe": "grundfoss"
+    }
+  },
+  "vm010": {
+    "vehiclename": "perfection",
+    "features": {
+      "batteriesystem": "mastervolt",
+      "batteriekapazitaet": 50,
+      "wasserfilter": true,
+      "drucksensorwallout": false,
+      "tankgeber": "drucksensoren",
+      "dieseltanksensor": false,
+      "wasserpumpe": "grundfoss"
+    }
+  },
+  "vm011": {
+    "vehiclename": "perfection",
+    "features": {
+      "batteriesystem": "mastervolt",
+      "batteriekapazitaet": 50,
+      "wasserfilter": true,
+      "drucksensorwallout": false,
+      "tankgeber": "drucksensoren",
+      "dieseltanksensor": false,
+      "wasserpumpe": "grundfoss"
+    }
+  },
+  "standard": {
+    "hydraulik": {
+      "plateau_hoch": false,
+      "plateau_runter": false,
+      "verriegelung_ist_auf": false,
+      "verriegelung_ist_zu": false,
+      "verriegelung_oeffnen": false,
+      "verriegelung_schliessen": false,
+      "verriegeln_nicht_moeglich": false
+    },
+    "fluessigkeiten": {
+      "wasserpumpe": false,
+      "wasserpumpe_stoerung": false,
+      "frischwassertank_fuellstand": 0,
+      "abwassertank_fuellstand": 0,
+      "faekalientank_fuellstand": 0,
+      "dieseltank_fuellstand": 0,
+      "heizungssystem_fuellstand": 0
+    },
+    "seitenklappen": {
+      "klappe1": {
+        "schloss_oeffnen": false,
+        "schloss_schliessen": false,
+        "klappe_auffahren": false,
+        "klappe_zufahren": false,
+        "stoerung": false,
+        "klappe_geoeffnet": false,
+        "klappe_geschlossen": false
+      },
+      "klappe2": {
+        "schloss_oeffnen": false,
+        "schloss_schliessen": false,
+        "klappe_auffahren": false,
+        "klappe_zufahren": false,
+        "stoerung": false,
+        "klappe_geoeffnet": false,
+        "klappe_geschlossen": false
+      },
+      "klappe3": {
+        "schloss_oeffnen": false,
+        "schloss_schliessen": false,
+        "klappe_auffahren": false,
+        "klappe_zufahren": false,
+        "stoerung": false,
+        "klappe_geoeffnet": false,
+        "klappe_geschlossen": false
+      },
+      "klappe4": {
+        "schloss_oeffnen": false,
+        "schloss_schliessen": false,
+        "klappe_auffahren": false,
+        "klappe_zufahren": false,
+        "stoerung": false,
+        "klappe_geoeffnet": false,
+        "klappe_geschlossen": false
+      },
+      "klappe5": {
+        "schloss_oeffnen": false,
+        "schloss_schliessen": false,
+        "klappe_auffahren": false,
+        "klappe_zufahren": false,
+        "stoerung": false,
+        "klappe_geoeffnet": false,
+        "klappe_geschlossen": false
+      },
+      "klappe6": {
+        "schloss_oeffnen": false,
+        "schloss_schliessen": false,
+        "klappe_auffahren": false,
+        "klappe_zufahren": false,
+        "stoerung": false,
+        "klappe_geoeffnet": false,
+        "klappe_geschlossen": false
+      },
+      "klappe7": {
+        "schloss_oeffnen": false,
+        "schloss_schliessen": false,
+        "klappe_auffahren": false,
+        "klappe_zufahren": false,
+        "stoerung": false,
+        "klappe_geoeffnet": false,
+        "klappe_geschlossen": false
+      },
+      "klappe8": {
+        "schloss_oeffnen": false,
+        "schloss_schliessen": false,
+        "klappe_auffahren": false,
+        "klappe_zufahren": false,
+        "stoerung": false,
+        "klappe_geoeffnet": false,
+        "klappe_geschlossen": false
+      },
+      "klappe9": {
+        "schloss_oeffnen": false,
+        "schloss_schliessen": false,
+        "klappe_auffahren": false,
+        "klappe_zufahren": false,
+        "stoerung": false,
+        "klappe_geoeffnet": false,
+        "klappe_geschlossen": false
+      },
+      "klappe10": {
+        "schloss_oeffnen": false,
+        "schloss_schliessen": false,
+        "klappe_auffahren": false,
+        "klappe_zufahren": false,
+        "stoerung": false,
+        "klappe_geoeffnet": false,
+        "klappe_geschlossen": false
+      }
+    }
+  }
+}
