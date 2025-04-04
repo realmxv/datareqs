@@ -14,6 +14,10 @@ It is designed to provide consistent and structured data access for apps and ser
   This folder contains app icons and symbols used in the user interface (e.g. tank icons, battery symbols, hydraulic status indicators).  
   Files are typically in `.svg` or `.png` format.
 
+- `service_location.json`  
+  Contains address and GPS coordinates of the official Volkner Mobil GmbH service centers.  
+  This data is used by the app to detect whether the vehicle is currently at the service facility, for example to enable diagnostic functions or restricted service modes.
+
 - `README.md`  
   Description and documentation for the data repository.
 
