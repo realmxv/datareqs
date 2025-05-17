@@ -1,4 +1,4 @@
-# datacontent
+# data test
 
 This repository contains central data files used in the Volkner Mobil app system.  
 It is designed to provide consistent and structured data access for apps and services related to vehicle configuration, status, and UI assets.
