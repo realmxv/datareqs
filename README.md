@@ -42,3 +42,4 @@ All files are configuration-only and safe to distribute with production systems.
 ---
 
 Feel free to open an issue or make suggestions for structure improvements.
+This is just a test page.
