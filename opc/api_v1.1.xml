@@ -1,0 +1,2178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<UANodeSet LastModified="2026-03-28T11:58:14+01:00" xmlns="http://opcfoundation.org/UA/2011/03/UANodeSet.xsd" xmlns:uax="http://opcfoundation.org/UA/2008/02/Types.xsd" xmlns:si="http://www.siemens.com/OPCUA/2017/SimaticNodeSetExtensions">
+  <NamespaceUris>
+    <Uri>http://www.volkner-mobil.com/simatic-s7-opcua</Uri>
+    <Uri>http://api_v1.0</Uri>
+  </NamespaceUris>
+  <Models>
+    <Model ModelUri="http://www.volkner-mobil.com/simatic-s7-opcua" PublicationDate="2026-03-28T11:58:14+01:00" Version="1.0.0" />
+    <Model ModelUri="http://api_v1.0" PublicationDate="2026-03-28T11:58:14+01:00" Version="1.0.0" />
+  </Models>
+  <Aliases>
+    <Alias Alias="BOOL">i=1</Alias>
+    <Alias Alias="INT">i=4</Alias>
+    <Alias Alias="REAL">i=10</Alias>
+    <Alias Alias="STRING">ns=1;i=3014</Alias>
+    <Alias Alias="HasTypeDefinition">i=40</Alias>
+    <Alias Alias="HasComponent">i=47</Alias>
+    <Alias Alias="HasModellingRule">i=37</Alias>
+    <Alias Alias="HasSubtype">i=45</Alias>
+    <Alias Alias="Organizes">i=35</Alias>
+    <Alias Alias="HasProperty">i=46</Alias>
+    <Alias Alias="HasEncoding">i=38</Alias>
+  </Aliases>
+  <Extensions>
+    <Extension>
+      <si:Generator Product="TIA Portal" Edition="STEP 7 - Server Interface Generation" Version="V1.0.0" />
+    </Extension>
+  </Extensions>
+  <UAObject NodeId="ns=2;i=2917" BrowseName="2:http://api_v1.0" ParentNodeId="i=11715">
+    <DisplayName>http://api_v1.0</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition" IsForward="true">i=11616</Reference>
+      <Reference ReferenceType="HasProperty" IsForward="true">ns=2;i=2918</Reference>
+      <Reference ReferenceType="HasProperty" IsForward="true">ns=2;i=2919</Reference>
+      <Reference ReferenceType="HasProperty" IsForward="true">ns=2;i=2920</Reference>
+      <Reference ReferenceType="HasProperty" IsForward="true">ns=2;i=2921</Reference>
+      <Reference ReferenceType="HasProperty" IsForward="true">ns=2;i=2922</Reference>
+      <Reference ReferenceType="HasProperty" IsForward="true">ns=2;i=2923</Reference>
+      <Reference ReferenceType="HasProperty" IsForward="true">ns=2;i=2924</Reference>
+      <Reference ReferenceType="HasProperty" IsForward="true">ns=2;i=2925</Reference>
+      <Reference ReferenceType="HasProperty" IsForward="true">ns=2;i=2926</Reference>
+      <Reference ReferenceType="Organizes" IsForward="false">i=11715</Reference>
+    </References>
+  </UAObject>
+  <UAVariable NodeId="ns=2;i=2918" BrowseName="NamespaceUri" ParentNodeId="ns=2;i=2917" DataType="i=12" AccessLevel="1">
+    <DisplayName>NamespaceUri</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition" IsForward="true">i=68</Reference>
+    </References>
+    <Value>
+      <uax:String>http://api_v1.0</uax:String>
+    </Value>
+  </UAVariable>
+  <UAVariable NodeId="ns=2;i=2919" BrowseName="NamespaceVersion" ParentNodeId="ns=2;i=2917" DataType="i=12" AccessLevel="1">
+    <DisplayName>NamespaceVersion</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition" IsForward="true">i=68</Reference>
+    </References>
+  </UAVariable>
+  <UAVariable NodeId="ns=2;i=2920" BrowseName="NamespacePublicationDate" ParentNodeId="ns=2;i=2917" DataType="i=13" AccessLevel="1">
+    <DisplayName>NamespacePublicationDate</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition" IsForward="true">i=68</Reference>
+    </References>
+    <Value>
+      <uax:String>2026-03-28T12:58:14+01:00</uax:String>
+    </Value>
+  </UAVariable>
+  <UAVariable NodeId="ns=2;i=2921" BrowseName="IsNamespaceSubset" ParentNodeId="ns=2;i=2917" DataType="BOOL" AccessLevel="1">
+    <DisplayName>IsNamespaceSubset</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition" IsForward="true">i=68</Reference>
+    </References>
+    <Value>
+      <uax:String>false</uax:String>
+    </Value>
+  </UAVariable>
+  <UAVariable NodeId="ns=2;i=2922" BrowseName="StaticNodeIdTypes" ParentNodeId="ns=2;i=2917" DataType="i=256" AccessLevel="1" ValueRank="1">
+    <DisplayName>StaticNodeIdTypes</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition" IsForward="true">i=68</Reference>
+    </References>
+  </UAVariable>
+  <UAVariable NodeId="ns=2;i=2923" BrowseName="StaticNumericNodeIdRange" ParentNodeId="ns=2;i=2917" DataType="i=291" AccessLevel="1" ValueRank="1">
+    <DisplayName>StaticNumericNodeIdRange</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition" IsForward="true">i=68</Reference>
+    </References>
+  </UAVariable>
+  <UAVariable NodeId="ns=2;i=2924" BrowseName="StaticStringNodeIdPattern" ParentNodeId="ns=2;i=2917" DataType="i=12" AccessLevel="1">
+    <DisplayName>StaticStringNodeIdPattern</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition" IsForward="true">i=68</Reference>
+    </References>
+  </UAVariable>
+  <UAVariable NodeId="ns=2;i=2925" BrowseName="DefaultRolePermissions" ParentNodeId="ns=2;i=2917" DataType="i=96" AccessLevel="1" ValueRank="1">
+    <DisplayName>DefaultRolePermissions</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition" IsForward="true">i=68</Reference>
+    </References>
+  </UAVariable>
+  <UAVariable NodeId="ns=2;i=2926" BrowseName="DefaultAccessRestrictions" ParentNodeId="ns=2;i=2917" DataType="i=95" AccessLevel="1">
+    <DisplayName>DefaultAccessRestrictions</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition" IsForward="true">i=68</Reference>
+    </References>
+  </UAVariable>
+  <UAObjectType NodeId="ns=1;i=1004" BrowseName="1:SimaticInterfaceType" IsAbstract="false">
+    <DisplayName>SimaticInterfaceType</DisplayName>
+    <References>
+      <Reference ReferenceType="HasProperty" IsForward="true">ns=1;i=6010</Reference>
+      <Reference ReferenceType="HasProperty" IsForward="true">ns=1;i=6011</Reference>
+      <Reference ReferenceType="HasProperty" IsForward="true">ns=1;i=6014</Reference>
+      <Reference ReferenceType="HasSubtype" IsForward="false">i=58</Reference>
+    </References>
+  </UAObjectType>
+  <UAVariable NodeId="ns=1;i=6010" BrowseName="Icon" DataType="i=2003" AccessLevel="1">
+    <DisplayName>Icon</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition" IsForward="true">i=68</Reference>
+      <Reference ReferenceType="HasModellingRule" IsForward="true">i=80</Reference>
+    </References>
+  </UAVariable>
+  <UAVariable NodeId="ns=1;i=6011" BrowseName="1:InterfaceUuid" DataType="i=14" AccessLevel="1">
+    <DisplayName>InterfaceUuid</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition" IsForward="true">i=68</Reference>
+      <Reference ReferenceType="HasModellingRule" IsForward="true">i=80</Reference>
+    </References>
+  </UAVariable>
+  <UAVariable NodeId="ns=1;i=6014" BrowseName="1:InterfaceVersion" DataType="ns=1;i=3064" AccessLevel="1">
+    <DisplayName>InterfaceVersion</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition" IsForward="true">i=68</Reference>
+      <Reference ReferenceType="HasModellingRule" IsForward="true">i=80</Reference>
+    </References>
+  </UAVariable>
+  <UAObject NodeId="ns=1;i=5001" BrowseName="Default Binary">
+    <DisplayName>Default Binary</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition" IsForward="true">i=76</Reference>
+    </References>
+  </UAObject>
+  <UAObject NodeId="ns=1;s=ServerInterfaces" BrowseName="1:ServerInterfaces">
+    <DisplayName>ServerInterfaces</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition" IsForward="true">i=61</Reference>
+      <Reference ReferenceType="Organizes" IsForward="true">ns=2;i=1</Reference>
+      <Reference ReferenceType="Organizes" IsForward="false">i=85</Reference>
+    </References>
+  </UAObject>
+  <UAObject NodeId="ns=2;i=1" BrowseName="2:api_v1.0" ParentNodeId="ns=1;s=ServerInterfaces">
+    <DisplayName>api_v1.0</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition" IsForward="true">ns=1;i=1004</Reference>
+      <Reference ReferenceType="Organizes" IsForward="true">ns=2;i=12</Reference>
+      <Reference ReferenceType="Organizes" IsForward="true">ns=2;i=56</Reference>
+      <Reference ReferenceType="Organizes" IsForward="true">ns=2;i=309</Reference>
+      <Reference ReferenceType="Organizes" IsForward="true">ns=2;i=408</Reference>
+      <Reference ReferenceType="Organizes" IsForward="true">ns=2;i=573</Reference>
+      <Reference ReferenceType="Organizes" IsForward="true">ns=2;i=969</Reference>
+      <Reference ReferenceType="Organizes" IsForward="true">ns=2;i=1134</Reference>
+      <Reference ReferenceType="Organizes" IsForward="true">ns=2;i=1574</Reference>
+      <Reference ReferenceType="Organizes" IsForward="true">ns=2;i=1948</Reference>
+      <Reference ReferenceType="Organizes" IsForward="true">ns=2;i=2201</Reference>
+      <Reference ReferenceType="Organizes" IsForward="true">ns=2;i=2487</Reference>
+    </References>
+  </UAObject>
+  <UAObject NodeId="ns=2;i=12" BrowseName="2:fahrzeug">
+    <DisplayName>fahrzeug</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition" IsForward="true">i=61</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="true">ns=2;i=2817</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="true">ns=2;i=2806</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="true">ns=2;i=2795</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="true">ns=2;i=2784</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="true">ns=2;i=2828</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="true">ns=2;i=2839</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="true">ns=2;i=2872</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="true">ns=2;i=2883</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="true">ns=2;i=2894</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="true">ns=2;i=2905</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="true">ns=2;i=2916</Reference>
+    </References>
+  </UAObject>
+  <UAVariable NodeId="ns=2;i=2817" BrowseName="2:vid" ParentNodeId="ns=2;i=12" DataType="STRING" AccessLevel="1">
+    <DisplayName>vid</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition" IsForward="true">i=63</Reference>
+    </References>
+  </UAVariable>
+  <UAVariable NodeId="ns=2;i=2806" BrowseName="2:model" ParentNodeId="ns=2;i=12" DataType="STRING" AccessLevel="1">
+    <DisplayName>model</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition" IsForward="true">i=63</Reference>
+    </References>
+  </UAVariable>
+  <UAVariable NodeId="ns=2;i=2795" BrowseName="2:version" ParentNodeId="ns=2;i=12" DataType="STRING" AccessLevel="1">
+    <DisplayName>version</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition" IsForward="true">i=63</Reference>
+    </References>
+  </UAVariable>
+  <UAVariable NodeId="ns=2;i=2784" BrowseName="2:fahrzeugfarbe" ParentNodeId="ns=2;i=12" DataType="STRING" AccessLevel="3">
+    <DisplayName>fahrzeugfarbe</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition" IsForward="true">i=63</Reference>
+    </References>
+  </UAVariable>
+  <UAVariable NodeId="ns=2;i=2828" BrowseName="2:fahrzeugbaujahr" ParentNodeId="ns=2;i=12" DataType="INT" AccessLevel="1">
+    <DisplayName>fahrzeugbaujahr</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition" IsForward="true">i=63</Reference>
+    </References>
+  </UAVariable>
+  <UAVariable NodeId="ns=2;i=2839" BrowseName="2:fahrzeuglaenge" ParentNodeId="ns=2;i=12" DataType="REAL" AccessLevel="1">
+    <DisplayName>fahrzeuglaenge</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition" IsForward="true">i=63</Reference>
+    </References>
+  </UAVariable>
+  <UAVariable NodeId="ns=2;i=2872" BrowseName="2:fahrzeugbreite" ParentNodeId="ns=2;i=12" DataType="REAL" AccessLevel="1">
+    <DisplayName>fahrzeugbreite</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition" IsForward="true">i=63</Reference>
+    </References>
+  </UAVariable>
+  <UAVariable NodeId="ns=2;i=2883" BrowseName="2:fahrzeughoehe" ParentNodeId="ns=2;i=12" DataType="REAL" AccessLevel="1">
+    <DisplayName>fahrzeughoehe</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition" IsForward="true">i=63</Reference>
+    </References>
+  </UAVariable>
+  <UAVariable NodeId="ns=2;i=2894" BrowseName="2:fahrzeugleergewicht" ParentNodeId="ns=2;i=12" DataType="REAL" AccessLevel="1">
+    <DisplayName>fahrzeugleergewicht</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition" IsForward="true">i=63</Reference>
+    </References>
+  </UAVariable>
+  <UAVariable NodeId="ns=2;i=2905" BrowseName="2:motorleistung" ParentNodeId="ns=2;i=12" DataType="INT" AccessLevel="1">
+    <DisplayName>motorleistung</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition" IsForward="true">i=63</Reference>
+    </References>
+  </UAVariable>
+  <UAVariable NodeId="ns=2;i=2916" BrowseName="2:motortyp" ParentNodeId="ns=2;i=12" DataType="STRING" AccessLevel="1">
+    <DisplayName>motortyp</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition" IsForward="true">i=63</Reference>
+    </References>
+  </UAVariable>
+  <UAObject NodeId="ns=2;i=56" BrowseName="2:technik">
+    <DisplayName>technik</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition" IsForward="true">i=61</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="true">ns=2;i=67</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="true">ns=2;i=78</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="true">ns=2;i=89</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="true">ns=2;i=100</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="true">ns=2;i=111</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="true">ns=2;i=122</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="true">ns=2;i=133</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="true">ns=2;i=144</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="true">ns=2;i=155</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="true">ns=2;i=166</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="true">ns=2;i=177</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="true">ns=2;i=188</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="true">ns=2;i=199</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="true">ns=2;i=210</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="true">ns=2;i=221</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="true">ns=2;i=232</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="true">ns=2;i=243</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="true">ns=2;i=254</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="true">ns=2;i=265</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="true">ns=2;i=276</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="true">ns=2;i=287</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="true">ns=2;i=298</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="true">ns=2;i=1563</Reference>
+    </References>
+  </UAObject>
+  <UAVariable NodeId="ns=2;i=67" BrowseName="2:markise_ausfahren" ParentNodeId="ns=2;i=56" DataType="BOOL" AccessLevel="3">
+    <DisplayName>markise_ausfahren</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition" IsForward="true">i=63</Reference>
+    </References>
+    <Extensions>
+      <Extension>
+        <si:VariableMapping>"Technik DB"."mark ausf"</si:VariableMapping>
+      </Extension>
+    </Extensions>
+  </UAVariable>
+  <UAVariable NodeId="ns=2;i=78" BrowseName="2:markise_einfahren" ParentNodeId="ns=2;i=56" DataType="BOOL" AccessLevel="3">
+    <DisplayName>markise_einfahren</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition" IsForward="true">i=63</Reference>
+    </References>
+    <Extensions>
+      <Extension>
+        <si:VariableMapping>"Technik DB"."mark einf"</si:VariableMapping>
+      </Extension>
+    </Extensions>
+  </UAVariable>
+  <UAVariable NodeId="ns=2;i=89" BrowseName="2:markise_vollant_ausfahren" ParentNodeId="ns=2;i=56" DataType="BOOL" AccessLevel="3">
+    <DisplayName>markise_vollant_ausfahren</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition" IsForward="true">i=63</Reference>
+    </References>
+  </UAVariable>
+  <UAVariable NodeId="ns=2;i=100" BrowseName="2:markise_vollant_einfahren" ParentNodeId="ns=2;i=56" DataType="BOOL" AccessLevel="3">
+    <DisplayName>markise_vollant_einfahren</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition" IsForward="true">i=63</Reference>
+    </References>
+  </UAVariable>
+  <UAVariable NodeId="ns=2;i=111" BrowseName="2:schloss_links" ParentNodeId="ns=2;i=56" DataType="BOOL" AccessLevel="3">
+    <DisplayName>schloss_links</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition" IsForward="true">i=63</Reference>
+    </References>
+    <Extensions>
+      <Extension>
+        <si:VariableMapping>"Technik DB"."zentral ein"</si:VariableMapping>
+      </Extension>
+    </Extensions>
+  </UAVariable>
+  <UAVariable NodeId="ns=2;i=122" BrowseName="2:schloss_rechts" ParentNodeId="ns=2;i=56" DataType="BOOL" AccessLevel="3">
+    <DisplayName>schloss_rechts</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition" IsForward="true">i=63</Reference>
+    </References>
+    <Extensions>
+      <Extension>
+        <si:VariableMapping>"Technik DB"."zentral ein"</si:VariableMapping>
+      </Extension>
+    </Extensions>
+  </UAVariable>
+  <UAVariable NodeId="ns=2;i=133" BrowseName="2:frontrollo_auffahren" ParentNodeId="ns=2;i=56" DataType="BOOL" AccessLevel="3">
+    <DisplayName>frontrollo_auffahren</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition" IsForward="true">i=63</Reference>
+    </References>
+  </UAVariable>
+  <UAVariable NodeId="ns=2;i=144" BrowseName="2:frontrollo_zufahren" ParentNodeId="ns=2;i=56" DataType="BOOL" AccessLevel="3">
+    <DisplayName>frontrollo_zufahren</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition" IsForward="true">i=63</Reference>
+    </References>
+  </UAVariable>
+  <UAVariable NodeId="ns=2;i=155" BrowseName="2:beifahrerplateau_auffahren" ParentNodeId="ns=2;i=56" DataType="BOOL" AccessLevel="3">
+    <DisplayName>beifahrerplateau_auffahren</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition" IsForward="true">i=63</Reference>
+    </References>
+    <Extensions>
+      <Extension>
+        <si:VariableMapping>"Technik DB"."plat beif einf"</si:VariableMapping>
+      </Extension>
+    </Extensions>
+  </UAVariable>
+  <UAVariable NodeId="ns=2;i=166" BrowseName="2:beifahrerplateau_zufahren" ParentNodeId="ns=2;i=56" DataType="BOOL" AccessLevel="3">
+    <DisplayName>beifahrerplateau_zufahren</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition" IsForward="true">i=63</Reference>
+    </References>
+    <Extensions>
+      <Extension>
+        <si:VariableMapping>"Technik DB"."plat beif ausf"</si:VariableMapping>
+      </Extension>
+    </Extensions>
+  </UAVariable>
+  <UAVariable NodeId="ns=2;i=177" BrowseName="2:tisch_runterfahren" ParentNodeId="ns=2;i=56" DataType="BOOL" AccessLevel="3">
+    <DisplayName>tisch_runterfahren</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition" IsForward="true">i=63</Reference>
+    </References>
+    <Extensions>
+      <Extension>
+        <si:VariableMapping>"Technik DB"."btn_table_livingroom_down"</si:VariableMapping>
+      </Extension>
+    </Extensions>
+  </UAVariable>
+  <UAVariable NodeId="ns=2;i=188" BrowseName="2:tisch_hochfahren" ParentNodeId="ns=2;i=56" DataType="BOOL" AccessLevel="3">
+    <DisplayName>tisch_hochfahren</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition" IsForward="true">i=63</Reference>
+    </References>
+    <Extensions>
+      <Extension>
+        <si:VariableMapping>"Technik DB"."btn_table_livingroom_up"</si:VariableMapping>
+      </Extension>
+    </Extensions>
+  </UAVariable>
+  <UAVariable NodeId="ns=2;i=199" BrowseName="2:tv_wohnzimmer_runterfahren" ParentNodeId="ns=2;i=56" DataType="BOOL" AccessLevel="3">
+    <DisplayName>tv_wohnzimmer_runterfahren</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition" IsForward="true">i=63</Reference>
+    </References>
+    <Extensions>
+      <Extension>
+        <si:VariableMapping>"Technik DB"."tv_wohnen_runter"</si:VariableMapping>
+      </Extension>
+    </Extensions>
+  </UAVariable>
+  <UAVariable NodeId="ns=2;i=210" BrowseName="2:tv_wohnzimmer_hochfahren" ParentNodeId="ns=2;i=56" DataType="BOOL" AccessLevel="3">
+    <DisplayName>tv_wohnzimmer_hochfahren</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition" IsForward="true">i=63</Reference>
+    </References>
+    <Extensions>
+      <Extension>
+        <si:VariableMapping>"Technik DB"."tv_wohnen_hoch"</si:VariableMapping>
+      </Extension>
+    </Extensions>
+  </UAVariable>
+  <UAVariable NodeId="ns=2;i=221" BrowseName="2:kuechenschrank_runterfahren" ParentNodeId="ns=2;i=56" DataType="BOOL" AccessLevel="3">
+    <DisplayName>kuechenschrank_runterfahren</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition" IsForward="true">i=63</Reference>
+    </References>
+    <Extensions>
+      <Extension>
+        <si:VariableMapping>"Technik DB"."kuche_runter"</si:VariableMapping>
+      </Extension>
+    </Extensions>
+  </UAVariable>
+  <UAVariable NodeId="ns=2;i=232" BrowseName="2:kuechenschrank_hochfahren" ParentNodeId="ns=2;i=56" DataType="BOOL" AccessLevel="3">
+    <DisplayName>kuechenschrank_hochfahren</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition" IsForward="true">i=63</Reference>
+    </References>
+    <Extensions>
+      <Extension>
+        <si:VariableMapping>"Technik DB"."kuche_hoch"</si:VariableMapping>
+      </Extension>
+    </Extensions>
+  </UAVariable>
+  <UAVariable NodeId="ns=2;i=243" BrowseName="2:tv_schlafzimmer_runterfahren" ParentNodeId="ns=2;i=56" DataType="BOOL" AccessLevel="3">
+    <DisplayName>tv_schlafzimmer_runterfahren</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition" IsForward="true">i=63</Reference>
+    </References>
+    <Extensions>
+      <Extension>
+        <si:VariableMapping>"Technik DB"."tv_schlafen_runter"</si:VariableMapping>
+      </Extension>
+    </Extensions>
+  </UAVariable>
+  <UAVariable NodeId="ns=2;i=254" BrowseName="2:tv_schlafzimmer_hochfahren" ParentNodeId="ns=2;i=56" DataType="BOOL" AccessLevel="3">
+    <DisplayName>tv_schlafzimmer_hochfahren</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition" IsForward="true">i=63</Reference>
+    </References>
+    <Extensions>
+      <Extension>
+        <si:VariableMapping>"Technik DB"."tv_schlafen_hoch"</si:VariableMapping>
+      </Extension>
+    </Extensions>
+  </UAVariable>
+  <UAVariable NodeId="ns=2;i=265" BrowseName="2:bett_runterfahren" ParentNodeId="ns=2;i=56" DataType="BOOL" AccessLevel="3">
+    <DisplayName>bett_runterfahren</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition" IsForward="true">i=63</Reference>
+    </References>
+    <Extensions>
+      <Extension>
+        <si:VariableMapping>"Technik DB"."bett_herunterfahren"</si:VariableMapping>
+      </Extension>
+    </Extensions>
+  </UAVariable>
+  <UAVariable NodeId="ns=2;i=276" BrowseName="2:bett_hochfahren" ParentNodeId="ns=2;i=56" DataType="BOOL" AccessLevel="3">
+    <DisplayName>bett_hochfahren</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition" IsForward="true">i=63</Reference>
+    </References>
+    <Extensions>
+      <Extension>
+        <si:VariableMapping>"Technik DB"."bett_hochfahren"</si:VariableMapping>
+      </Extension>
+    </Extensions>
+  </UAVariable>
+  <UAVariable NodeId="ns=2;i=287" BrowseName="2:radio" ParentNodeId="ns=2;i=56" DataType="BOOL" AccessLevel="3">
+    <DisplayName>radio</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition" IsForward="true">i=63</Reference>
+    </References>
+    <Extensions>
+      <Extension>
+        <si:VariableMapping>"Technik DB"."radio ein"</si:VariableMapping>
+      </Extension>
+    </Extensions>
+  </UAVariable>
+  <UAVariable NodeId="ns=2;i=298" BrowseName="2:kamera" ParentNodeId="ns=2;i=56" DataType="BOOL" AccessLevel="3">
+    <DisplayName>kamera</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition" IsForward="true">i=63</Reference>
+    </References>
+    <Extensions>
+      <Extension>
+        <si:VariableMapping>"Technik DB"."kam bild"</si:VariableMapping>
+      </Extension>
+    </Extensions>
+  </UAVariable>
+  <UAVariable NodeId="ns=2;i=1563" BrowseName="2:anwesend" ParentNodeId="ns=2;i=56" DataType="BOOL" AccessLevel="3">
+    <DisplayName>anwesend</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition" IsForward="true">i=63</Reference>
+    </References>
+    <Extensions>
+      <Extension>
+        <si:VariableMapping>"Technik DB"."anwesend"</si:VariableMapping>
+      </Extension>
+    </Extensions>
+  </UAVariable>
+  <UAObject NodeId="ns=2;i=309" BrowseName="2:wallout">
+    <DisplayName>wallout</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition" IsForward="true">i=61</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="true">ns=2;i=320</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="true">ns=2;i=331</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="true">ns=2;i=342</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="true">ns=2;i=353</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="true">ns=2;i=364</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="true">ns=2;i=375</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="true">ns=2;i=386</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="true">ns=2;i=397</Reference>
+    </References>
+  </UAObject>
+  <UAVariable NodeId="ns=2;i=320" BrowseName="2:wallout_verfahren" ParentNodeId="ns=2;i=309" DataType="BOOL" AccessLevel="3">
+    <DisplayName>wallout_verfahren</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition" IsForward="true">i=63</Reference>
+    </References>
+  </UAVariable>
+  <UAVariable NodeId="ns=2;i=331" BrowseName="2:wallout_heizung" ParentNodeId="ns=2;i=309" DataType="BOOL" AccessLevel="3">
+    <DisplayName>wallout_heizung</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition" IsForward="true">i=63</Reference>
+    </References>
+  </UAVariable>
+  <UAVariable NodeId="ns=2;i=342" BrowseName="2:wallout_beleuchtung" ParentNodeId="ns=2;i=309" DataType="BOOL" AccessLevel="3">
+    <DisplayName>wallout_beleuchtung</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition" IsForward="true">i=63</Reference>
+    </References>
+  </UAVariable>
+  <UAVariable NodeId="ns=2;i=353" BrowseName="2:wallout_luftdichtung_status" ParentNodeId="ns=2;i=309" DataType="INT" AccessLevel="1">
+    <DisplayName>wallout_luftdichtung_status</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition" IsForward="true">i=63</Reference>
+    </References>
+  </UAVariable>
+  <UAVariable NodeId="ns=2;i=364" BrowseName="2:wallout_luftdichtung_bar" ParentNodeId="ns=2;i=309" DataType="REAL" AccessLevel="1">
+    <DisplayName>wallout_luftdichtung_bar</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition" IsForward="true">i=63</Reference>
+    </References>
+  </UAVariable>
+  <UAVariable NodeId="ns=2;i=375" BrowseName="2:wallout_verfahren_status" ParentNodeId="ns=2;i=309" DataType="INT" AccessLevel="1">
+    <DisplayName>wallout_verfahren_status</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition" IsForward="true">i=63</Reference>
+    </References>
+  </UAVariable>
+  <UAVariable NodeId="ns=2;i=386" BrowseName="2:wallout_ausfahren" ParentNodeId="ns=2;i=309" DataType="BOOL" AccessLevel="3">
+    <DisplayName>wallout_ausfahren</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition" IsForward="true">i=63</Reference>
+    </References>
+  </UAVariable>
+  <UAVariable NodeId="ns=2;i=397" BrowseName="2:wallout_einfahren" ParentNodeId="ns=2;i=309" DataType="BOOL" AccessLevel="3">
+    <DisplayName>wallout_einfahren</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition" IsForward="true">i=63</Reference>
+    </References>
+  </UAVariable>
+  <UAObject NodeId="ns=2;i=408" BrowseName="2:hydraulik">
+    <DisplayName>hydraulik</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition" IsForward="true">i=61</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="true">ns=2;i=419</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="true">ns=2;i=430</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="true">ns=2;i=441</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="true">ns=2;i=452</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="true">ns=2;i=496</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="true">ns=2;i=474</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="true">ns=2;i=485</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="true">ns=2;i=562</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="true">ns=2;i=518</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="true">ns=2;i=529</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="true">ns=2;i=540</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="true">ns=2;i=551</Reference>
+    </References>
+  </UAObject>
+  <UAVariable NodeId="ns=2;i=419" BrowseName="2:hydraulik_aktiv" ParentNodeId="ns=2;i=408" DataType="BOOL" AccessLevel="1">
+    <DisplayName>hydraulik_aktiv</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition" IsForward="true">i=63</Reference>
+    </References>
+  </UAVariable>
+  <UAVariable NodeId="ns=2;i=430" BrowseName="2:hydraulik_garagenklappe_status" ParentNodeId="ns=2;i=408" DataType="INT" AccessLevel="1">
+    <DisplayName>hydraulik_garagenklappe_status</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition" IsForward="true">i=63</Reference>
+    </References>
+  </UAVariable>
+  <UAVariable NodeId="ns=2;i=441" BrowseName="2:hydraulik_garagenklappe_schliessen" ParentNodeId="ns=2;i=408" DataType="BOOL" AccessLevel="3">
+    <DisplayName>hydraulik_garagenklappe_schliessen</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition" IsForward="true">i=63</Reference>
+    </References>
+  </UAVariable>
+  <UAVariable NodeId="ns=2;i=452" BrowseName="2:hydraulik_garagenklappe_oeffnen" ParentNodeId="ns=2;i=408" DataType="BOOL" AccessLevel="3">
+    <DisplayName>hydraulik_garagenklappe_oeffnen</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition" IsForward="true">i=63</Reference>
+    </References>
+  </UAVariable>
+  <UAVariable NodeId="ns=2;i=496" BrowseName="2:hydraulik_verriegelung_status" ParentNodeId="ns=2;i=408" DataType="INT" AccessLevel="1">
+    <DisplayName>hydraulik_verriegelung_status</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition" IsForward="true">i=63</Reference>
+    </References>
+  </UAVariable>
+  <UAVariable NodeId="ns=2;i=474" BrowseName="2:hydraulik_verriegelung_schliessen" ParentNodeId="ns=2;i=408" DataType="BOOL" AccessLevel="3">
+    <DisplayName>hydraulik_verriegelung_schliessen</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition" IsForward="true">i=63</Reference>
+    </References>
+  </UAVariable>
+  <UAVariable NodeId="ns=2;i=485" BrowseName="2:hydraulik_verriegelung_oeffnen" ParentNodeId="ns=2;i=408" DataType="BOOL" AccessLevel="3">
+    <DisplayName>hydraulik_verriegelung_oeffnen</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition" IsForward="true">i=63</Reference>
+    </References>
+  </UAVariable>
+  <UAVariable NodeId="ns=2;i=562" BrowseName="2:hydraulik_plateau_status" ParentNodeId="ns=2;i=408" DataType="INT" AccessLevel="1">
+    <DisplayName>hydraulik_plateau_status</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition" IsForward="true">i=63</Reference>
+    </References>
+  </UAVariable>
+  <UAVariable NodeId="ns=2;i=518" BrowseName="2:hydraulik_plateau_runterfahren" ParentNodeId="ns=2;i=408" DataType="BOOL" AccessLevel="3">
+    <DisplayName>hydraulik_plateau_runterfahren</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition" IsForward="true">i=63</Reference>
+    </References>
+  </UAVariable>
+  <UAVariable NodeId="ns=2;i=529" BrowseName="2:hydraulik_plateau_hochfahren" ParentNodeId="ns=2;i=408" DataType="BOOL" AccessLevel="3">
+    <DisplayName>hydraulik_plateau_hochfahren</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition" IsForward="true">i=63</Reference>
+    </References>
+  </UAVariable>
+  <UAVariable NodeId="ns=2;i=540" BrowseName="2:hydraulik_plateau_ausfahren" ParentNodeId="ns=2;i=408" DataType="BOOL" AccessLevel="3">
+    <DisplayName>hydraulik_plateau_ausfahren</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition" IsForward="true">i=63</Reference>
+    </References>
+  </UAVariable>
+  <UAVariable NodeId="ns=2;i=551" BrowseName="2:hydraulik_plateau_einfahren" ParentNodeId="ns=2;i=408" DataType="BOOL" AccessLevel="3">
+    <DisplayName>hydraulik_plateau_einfahren</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition" IsForward="true">i=63</Reference>
+    </References>
+  </UAVariable>
+  <UAObject NodeId="ns=2;i=573" BrowseName="2:energie">
+    <DisplayName>energie</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition" IsForward="true">i=61</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="true">ns=2;i=661</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="true">ns=2;i=617</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="true">ns=2;i=628</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="true">ns=2;i=639</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="true">ns=2;i=672</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="true">ns=2;i=903</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="true">ns=2;i=716</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="true">ns=2;i=727</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="true">ns=2;i=2927</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="true">ns=2;i=738</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="true">ns=2;i=749</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="true">ns=2;i=760</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="true">ns=2;i=804</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="true">ns=2;i=892</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="true">ns=2;i=826</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="true">ns=2;i=837</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="true">ns=2;i=914</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="true">ns=2;i=859</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="true">ns=2;i=870</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="true">ns=2;i=925</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="true">ns=2;i=936</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="true">ns=2;i=947</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="true">ns=2;i=958</Reference>
+    </References>
+  </UAObject>
+  <UAVariable NodeId="ns=2;i=661" BrowseName="2:landstrom_status" ParentNodeId="ns=2;i=573" DataType="INT" AccessLevel="1">
+    <DisplayName>landstrom_status</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition" IsForward="true">i=63</Reference>
+    </References>
+  </UAVariable>
+  <UAVariable NodeId="ns=2;i=617" BrowseName="2:landstrom_spannung" ParentNodeId="ns=2;i=573" DataType="INT" AccessLevel="1">
+    <DisplayName>landstrom_spannung</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition" IsForward="true">i=63</Reference>
+    </References>
+  </UAVariable>
+  <UAVariable NodeId="ns=2;i=628" BrowseName="2:landstrom_ertrag" ParentNodeId="ns=2;i=573" DataType="INT" AccessLevel="1">
+    <DisplayName>landstrom_ertrag</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition" IsForward="true">i=63</Reference>
+    </References>
+  </UAVariable>
+  <UAVariable NodeId="ns=2;i=639" BrowseName="2:landstrom_leistungseinstellung" ParentNodeId="ns=2;i=573" DataType="INT" AccessLevel="3">
+    <DisplayName>landstrom_leistungseinstellung</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition" IsForward="true">i=63</Reference>
+    </References>
+  </UAVariable>
+  <UAVariable NodeId="ns=2;i=672" BrowseName="2:ladewandler_status" ParentNodeId="ns=2;i=573" DataType="INT" AccessLevel="1">
+    <DisplayName>ladewandler_status</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition" IsForward="true">i=63</Reference>
+    </References>
+  </UAVariable>
+  <UAVariable NodeId="ns=2;i=903" BrowseName="2:aufbaubatterie_soc" ParentNodeId="ns=2;i=573" DataType="INT" AccessLevel="1">
+    <DisplayName>aufbaubatterie_soc</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition" IsForward="true">i=63</Reference>
+    </References>
+  </UAVariable>
+  <UAVariable NodeId="ns=2;i=716" BrowseName="2:aufbaubatterie_spannung" ParentNodeId="ns=2;i=573" DataType="INT" AccessLevel="1">
+    <DisplayName>aufbaubatterie_spannung</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition" IsForward="true">i=63</Reference>
+    </References>
+  </UAVariable>
+  <UAVariable NodeId="ns=2;i=727" BrowseName="2:aufbaubatterie_strom" ParentNodeId="ns=2;i=573" DataType="INT" AccessLevel="1">
+    <DisplayName>aufbaubatterie_strom</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition" IsForward="true">i=63</Reference>
+    </References>
+  </UAVariable>
+  <UAVariable NodeId="ns=2;i=2927" BrowseName="2:aufbaubatterie_kapazität" ParentNodeId="ns=2;i=573" DataType="INT" AccessLevel="1">
+    <DisplayName>aufbaubatterie_kapazität</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition" IsForward="true">i=63</Reference>
+    </References>
+  </UAVariable>
+  <UAVariable NodeId="ns=2;i=738" BrowseName="2:dc_verbrauch" ParentNodeId="ns=2;i=573" DataType="INT" AccessLevel="1">
+    <DisplayName>dc_verbrauch</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition" IsForward="true">i=63</Reference>
+    </References>
+  </UAVariable>
+  <UAVariable NodeId="ns=2;i=749" BrowseName="2:ac_verbrauch" ParentNodeId="ns=2;i=573" DataType="INT" AccessLevel="1">
+    <DisplayName>ac_verbrauch</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition" IsForward="true">i=63</Reference>
+    </References>
+  </UAVariable>
+  <UAVariable NodeId="ns=2;i=760" BrowseName="2:lichtmaschine_ertrag" ParentNodeId="ns=2;i=573" DataType="INT" AccessLevel="1">
+    <DisplayName>lichtmaschine_ertrag</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition" IsForward="true">i=63</Reference>
+    </References>
+  </UAVariable>
+  <UAVariable NodeId="ns=2;i=804" BrowseName="2:solar_status" ParentNodeId="ns=2;i=573" DataType="INT" AccessLevel="1">
+    <DisplayName>solar_status</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition" IsForward="true">i=63</Reference>
+    </References>
+  </UAVariable>
+  <UAVariable NodeId="ns=2;i=892" BrowseName="2:solar_spannung" ParentNodeId="ns=2;i=573" DataType="INT" AccessLevel="1">
+    <DisplayName>solar_spannung</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition" IsForward="true">i=63</Reference>
+    </References>
+  </UAVariable>
+  <UAVariable NodeId="ns=2;i=826" BrowseName="2:solar_ertrag" ParentNodeId="ns=2;i=573" DataType="INT" AccessLevel="1">
+    <DisplayName>solar_ertrag</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition" IsForward="true">i=63</Reference>
+    </References>
+  </UAVariable>
+  <UAVariable NodeId="ns=2;i=837" BrowseName="2:fahrzeugbatterie_status" ParentNodeId="ns=2;i=573" DataType="INT" AccessLevel="1">
+    <DisplayName>fahrzeugbatterie_status</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition" IsForward="true">i=63</Reference>
+    </References>
+  </UAVariable>
+  <UAVariable NodeId="ns=2;i=914" BrowseName="2:fahrzeugbatterie_spannung" ParentNodeId="ns=2;i=573" DataType="REAL" AccessLevel="1">
+    <DisplayName>fahrzeugbatterie_spannung</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition" IsForward="true">i=63</Reference>
+    </References>
+  </UAVariable>
+  <UAVariable NodeId="ns=2;i=859" BrowseName="2:fahrzeugbatterie_ladegeraet_aktiv" ParentNodeId="ns=2;i=573" DataType="BOOL" AccessLevel="3">
+    <DisplayName>fahrzeugbatterie_ladegeraet_aktiv</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition" IsForward="true">i=63</Reference>
+    </References>
+  </UAVariable>
+  <UAVariable NodeId="ns=2;i=870" BrowseName="2:fahrzeugbatterie_ladegeraet_eco_modus_aktiv" ParentNodeId="ns=2;i=573" DataType="BOOL" AccessLevel="3">
+    <DisplayName>fahrzeugbatterie_ladegeraet_eco_modus_aktiv</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition" IsForward="true">i=63</Reference>
+    </References>
+  </UAVariable>
+  <UAVariable NodeId="ns=2;i=925" BrowseName="2:hilfsspannung_status" ParentNodeId="ns=2;i=573" DataType="INT" AccessLevel="1">
+    <DisplayName>hilfsspannung_status</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition" IsForward="true">i=63</Reference>
+    </References>
+  </UAVariable>
+  <UAVariable NodeId="ns=2;i=936" BrowseName="2:hilfsspannung_spannung" ParentNodeId="ns=2;i=573" DataType="REAL" AccessLevel="1">
+    <DisplayName>hilfsspannung_spannung</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition" IsForward="true">i=63</Reference>
+    </References>
+  </UAVariable>
+  <UAVariable NodeId="ns=2;i=947" BrowseName="2:hilfsspannung_dcdc_1_aktiv" ParentNodeId="ns=2;i=573" DataType="BOOL" AccessLevel="3">
+    <DisplayName>hilfsspannung_dcdc_1_aktiv</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition" IsForward="true">i=63</Reference>
+    </References>
+  </UAVariable>
+  <UAVariable NodeId="ns=2;i=958" BrowseName="2:hilfsspannung_dcdc_2_aktiv" ParentNodeId="ns=2;i=573" DataType="BOOL" AccessLevel="3">
+    <DisplayName>hilfsspannung_dcdc_2_aktiv</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition" IsForward="true">i=63</Reference>
+    </References>
+  </UAVariable>
+  <UAObject NodeId="ns=2;i=969" BrowseName="2:generator">
+    <DisplayName>generator</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition" IsForward="true">i=61</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="true">ns=2;i=980</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="true">ns=2;i=991</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="true">ns=2;i=1002</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="true">ns=2;i=1013</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="true">ns=2;i=1926</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="true">ns=2;i=1937</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="true">ns=2;i=1123</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="true">ns=2;i=1101</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="true">ns=2;i=1112</Reference>
+    </References>
+  </UAObject>
+  <UAVariable NodeId="ns=2;i=980" BrowseName="2:generator_status" ParentNodeId="ns=2;i=969" DataType="INT" AccessLevel="1">
+    <DisplayName>generator_status</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition" IsForward="true">i=63</Reference>
+    </References>
+  </UAVariable>
+  <UAVariable NodeId="ns=2;i=991" BrowseName="2:generator_aktiv" ParentNodeId="ns=2;i=969" DataType="BOOL" AccessLevel="3">
+    <DisplayName>generator_aktiv</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition" IsForward="true">i=63</Reference>
+    </References>
+  </UAVariable>
+  <UAVariable NodeId="ns=2;i=1002" BrowseName="2:generator_automatik" ParentNodeId="ns=2;i=969" DataType="BOOL" AccessLevel="3">
+    <DisplayName>generator_automatik</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition" IsForward="true">i=63</Reference>
+    </References>
+  </UAVariable>
+  <UAVariable NodeId="ns=2;i=1013" BrowseName="2:generator_sperrzeit_aktivieren" ParentNodeId="ns=2;i=969" DataType="BOOL" AccessLevel="3">
+    <DisplayName>generator_sperrzeit_aktivieren</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition" IsForward="true">i=63</Reference>
+    </References>
+  </UAVariable>
+  <UAVariable NodeId="ns=2;i=1926" BrowseName="2:generator_sperrzeit_start" ParentNodeId="ns=2;i=969" DataType="STRING" AccessLevel="3">
+    <DisplayName>generator_sperrzeit_start</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition" IsForward="true">i=63</Reference>
+    </References>
+  </UAVariable>
+  <UAVariable NodeId="ns=2;i=1937" BrowseName="2:generator_sperrzeit_ende" ParentNodeId="ns=2;i=969" DataType="STRING" AccessLevel="3">
+    <DisplayName>generator_sperrzeit_ende</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition" IsForward="true">i=63</Reference>
+    </References>
+  </UAVariable>
+  <UAVariable NodeId="ns=2;i=1123" BrowseName="2:generator_btriebsstunden" ParentNodeId="ns=2;i=969" DataType="INT" AccessLevel="1">
+    <DisplayName>generator_btriebsstunden</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition" IsForward="true">i=63</Reference>
+    </References>
+  </UAVariable>
+  <UAVariable NodeId="ns=2;i=1101" BrowseName="2:generator_spannung" ParentNodeId="ns=2;i=969" DataType="INT" AccessLevel="1">
+    <DisplayName>generator_spannung</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition" IsForward="true">i=63</Reference>
+    </References>
+  </UAVariable>
+  <UAVariable NodeId="ns=2;i=1112" BrowseName="2:generator_ertrag" ParentNodeId="ns=2;i=969" DataType="INT" AccessLevel="1">
+    <DisplayName>generator_ertrag</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition" IsForward="true">i=63</Reference>
+    </References>
+  </UAVariable>
+  <UAObject NodeId="ns=2;i=1134" BrowseName="2:beleuchtung">
+    <DisplayName>beleuchtung</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition" IsForward="true">i=61</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="true">ns=2;i=1145</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="true">ns=2;i=1211</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="true">ns=2;i=1222</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="true">ns=2;i=1233</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="true">ns=2;i=1244</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="true">ns=2;i=1255</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="true">ns=2;i=1332</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="true">ns=2;i=1343</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="true">ns=2;i=1354</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="true">ns=2;i=1365</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="true">ns=2;i=1376</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="true">ns=2;i=1387</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="true">ns=2;i=1453</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="true">ns=2;i=1464</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="true">ns=2;i=1475</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="true">ns=2;i=1486</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="true">ns=2;i=1497</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="true">ns=2;i=1552</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="true">ns=2;i=1519</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="true">ns=2;i=1530</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="true">ns=2;i=1541</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="true">ns=2;i=2762</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="true">ns=2;i=2773</Reference>
+    </References>
+  </UAObject>
+  <UAVariable NodeId="ns=2;i=1145" BrowseName="2:licht_frontschrank" ParentNodeId="ns=2;i=1134" DataType="INT" AccessLevel="3">
+    <DisplayName>licht_frontschrank</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition" IsForward="true">i=63</Reference>
+    </References>
+    <Extensions>
+      <Extension>
+        <si:VariableMapping>"DB_Lichtsteuerung"."0-100 Prozent"."frontschrank_0-100"</si:VariableMapping>
+      </Extension>
+    </Extensions>
+  </UAVariable>
+  <UAVariable NodeId="ns=2;i=1211" BrowseName="2:licht_treppe" ParentNodeId="ns=2;i=1134" DataType="INT" AccessLevel="3">
+    <DisplayName>licht_treppe</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition" IsForward="true">i=63</Reference>
+    </References>
+    <Extensions>
+      <Extension>
+        <si:VariableMapping>"DB_Lichtsteuerung"."0-100 Prozent"."treppe_0-100"</si:VariableMapping>
+      </Extension>
+    </Extensions>
+  </UAVariable>
+  <UAVariable NodeId="ns=2;i=1222" BrowseName="2:licht_wohnzimmer_decke" ParentNodeId="ns=2;i=1134" DataType="INT" AccessLevel="3">
+    <DisplayName>licht_wohnzimmer_decke</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition" IsForward="true">i=63</Reference>
+    </References>
+    <Extensions>
+      <Extension>
+        <si:VariableMapping>"DB_Lichtsteuerung"."0-100 Prozent"."wz_decke_0-100"</si:VariableMapping>
+      </Extension>
+    </Extensions>
+  </UAVariable>
+  <UAVariable NodeId="ns=2;i=1233" BrowseName="2:licht_wohnzimmer_fernseher" ParentNodeId="ns=2;i=1134" DataType="INT" AccessLevel="3">
+    <DisplayName>licht_wohnzimmer_fernseher</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition" IsForward="true">i=63</Reference>
+    </References>
+    <Extensions>
+      <Extension>
+        <si:VariableMapping>"DB_Lichtsteuerung"."0-100 Prozent"."wz_schrank_0-100"</si:VariableMapping>
+      </Extension>
+    </Extensions>
+  </UAVariable>
+  <UAVariable NodeId="ns=2;i=1244" BrowseName="2:licht_wohnzimmer_wohlfuehl" ParentNodeId="ns=2;i=1134" DataType="INT" AccessLevel="3">
+    <DisplayName>licht_wohnzimmer_wohlfuehl</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition" IsForward="true">i=63</Reference>
+    </References>
+    <Extensions>
+      <Extension>
+        <si:VariableMapping>"DB_Lichtsteuerung"."0-100 Prozent"."wz_wohlfühl_0-100"</si:VariableMapping>
+      </Extension>
+    </Extensions>
+  </UAVariable>
+  <UAVariable NodeId="ns=2;i=1255" BrowseName="2:licht_indirekt" ParentNodeId="ns=2;i=1134" DataType="INT" AccessLevel="3">
+    <DisplayName>licht_indirekt</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition" IsForward="true">i=63</Reference>
+    </References>
+    <Extensions>
+      <Extension>
+        <si:VariableMapping>"DB_Lichtsteuerung"."0-100 Prozent"."notbeleuchtung_0-100"</si:VariableMapping>
+      </Extension>
+    </Extensions>
+  </UAVariable>
+  <UAVariable NodeId="ns=2;i=1332" BrowseName="2:licht_kueche_decke" ParentNodeId="ns=2;i=1134" DataType="INT" AccessLevel="3">
+    <DisplayName>licht_kueche_decke</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition" IsForward="true">i=63</Reference>
+    </References>
+    <Extensions>
+      <Extension>
+        <si:VariableMapping>"DB_Lichtsteuerung"."0-100 Prozent"."kuche_0-100"</si:VariableMapping>
+      </Extension>
+    </Extensions>
+  </UAVariable>
+  <UAVariable NodeId="ns=2;i=1343" BrowseName="2:licht_kueche_vitrine" ParentNodeId="ns=2;i=1134" DataType="INT" AccessLevel="3">
+    <DisplayName>licht_kueche_vitrine</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition" IsForward="true">i=63</Reference>
+    </References>
+    <Extensions>
+      <Extension>
+        <si:VariableMapping>"DB_Lichtsteuerung"."0-100 Prozent"."wz_vitrine_0-100"</si:VariableMapping>
+      </Extension>
+    </Extensions>
+  </UAVariable>
+  <UAVariable NodeId="ns=2;i=1354" BrowseName="2:licht_bad_decke" ParentNodeId="ns=2;i=1134" DataType="INT" AccessLevel="3">
+    <DisplayName>licht_bad_decke</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition" IsForward="true">i=63</Reference>
+    </References>
+    <Extensions>
+      <Extension>
+        <si:VariableMapping>"DB_Lichtsteuerung"."0-100 Prozent"."bad_1_0-100"</si:VariableMapping>
+      </Extension>
+    </Extensions>
+  </UAVariable>
+  <UAVariable NodeId="ns=2;i=1365" BrowseName="2:licht_bad_wohlfuehl" ParentNodeId="ns=2;i=1134" DataType="INT" AccessLevel="3">
+    <DisplayName>licht_bad_wohlfuehl</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition" IsForward="true">i=63</Reference>
+    </References>
+    <Extensions>
+      <Extension>
+        <si:VariableMapping>"DB_Lichtsteuerung"."0-100 Prozent"."bad_2_0-100"</si:VariableMapping>
+      </Extension>
+    </Extensions>
+  </UAVariable>
+  <UAVariable NodeId="ns=2;i=1376" BrowseName="2:licht_schlafzimmer_decke" ParentNodeId="ns=2;i=1134" DataType="INT" AccessLevel="3">
+    <DisplayName>licht_schlafzimmer_decke</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition" IsForward="true">i=63</Reference>
+    </References>
+    <Extensions>
+      <Extension>
+        <si:VariableMapping>"DB_Lichtsteuerung"."0-100 Prozent"."sz_1_0-100"</si:VariableMapping>
+      </Extension>
+    </Extensions>
+  </UAVariable>
+  <UAVariable NodeId="ns=2;i=1387" BrowseName="2:licht_schlafzimmer_wohlfuehl" ParentNodeId="ns=2;i=1134" DataType="INT" AccessLevel="3">
+    <DisplayName>licht_schlafzimmer_wohlfuehl</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition" IsForward="true">i=63</Reference>
+    </References>
+    <Extensions>
+      <Extension>
+        <si:VariableMapping>"DB_Lichtsteuerung"."0-100 Prozent"."sz_2_0-100"</si:VariableMapping>
+      </Extension>
+    </Extensions>
+  </UAVariable>
+  <UAVariable NodeId="ns=2;i=1453" BrowseName="2:licht_aussen_fahrerseite" ParentNodeId="ns=2;i=1134" DataType="INT" AccessLevel="3">
+    <DisplayName>licht_aussen_fahrerseite</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition" IsForward="true">i=63</Reference>
+    </References>
+  </UAVariable>
+  <UAVariable NodeId="ns=2;i=1464" BrowseName="2:licht_aussen_beifahrerseite" ParentNodeId="ns=2;i=1134" DataType="INT" AccessLevel="3">
+    <DisplayName>licht_aussen_beifahrerseite</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition" IsForward="true">i=63</Reference>
+    </References>
+  </UAVariable>
+  <UAVariable NodeId="ns=2;i=1475" BrowseName="2:licht_aussen_heck" ParentNodeId="ns=2;i=1134" DataType="INT" AccessLevel="3">
+    <DisplayName>licht_aussen_heck</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition" IsForward="true">i=63</Reference>
+    </References>
+  </UAVariable>
+  <UAVariable NodeId="ns=2;i=1486" BrowseName="2:licht_aussen_markise" ParentNodeId="ns=2;i=1134" DataType="INT" AccessLevel="3">
+    <DisplayName>licht_aussen_markise</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition" IsForward="true">i=63</Reference>
+    </References>
+    <Extensions>
+      <Extension>
+        <si:VariableMapping>"DB_Lichtsteuerung"."0-100 Prozent"."markise_0-100"</si:VariableMapping>
+      </Extension>
+    </Extensions>
+  </UAVariable>
+  <UAVariable NodeId="ns=2;i=1497" BrowseName="2:licht_aussen_eingangstuer" ParentNodeId="ns=2;i=1134" DataType="INT" AccessLevel="3">
+    <DisplayName>licht_aussen_eingangstuer</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition" IsForward="true">i=63</Reference>
+    </References>
+  </UAVariable>
+  <UAVariable NodeId="ns=2;i=1552" BrowseName="2:licht_szene_1_aktiv" ParentNodeId="ns=2;i=1134" DataType="BOOL" AccessLevel="3">
+    <DisplayName>licht_szene_1_aktiv</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition" IsForward="true">i=63</Reference>
+    </References>
+    <Extensions>
+      <Extension>
+        <si:VariableMapping>"DB_Licht_szenen"."szene_1"."on_szene_1"</si:VariableMapping>
+      </Extension>
+    </Extensions>
+  </UAVariable>
+  <UAVariable NodeId="ns=2;i=1519" BrowseName="2:licht_szene_2_aktiv" ParentNodeId="ns=2;i=1134" DataType="BOOL" AccessLevel="3">
+    <DisplayName>licht_szene_2_aktiv</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition" IsForward="true">i=63</Reference>
+    </References>
+    <Extensions>
+      <Extension>
+        <si:VariableMapping>"DB_Licht_szenen"."szene_2"."on_szene_2"</si:VariableMapping>
+      </Extension>
+    </Extensions>
+  </UAVariable>
+  <UAVariable NodeId="ns=2;i=1530" BrowseName="2:licht_szene_3_aktiv" ParentNodeId="ns=2;i=1134" DataType="BOOL" AccessLevel="3">
+    <DisplayName>licht_szene_3_aktiv</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition" IsForward="true">i=63</Reference>
+    </References>
+    <Extensions>
+      <Extension>
+        <si:VariableMapping>"DB_Licht_szenen"."szene_3"."on_szene_3"</si:VariableMapping>
+      </Extension>
+    </Extensions>
+  </UAVariable>
+  <UAVariable NodeId="ns=2;i=1541" BrowseName="2:licht_szene_4_aktiv" ParentNodeId="ns=2;i=1134" DataType="BOOL" AccessLevel="3">
+    <DisplayName>licht_szene_4_aktiv</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition" IsForward="true">i=63</Reference>
+    </References>
+    <Extensions>
+      <Extension>
+        <si:VariableMapping>"DB_Licht_szenen"."szene_4"."on_szene_4"</si:VariableMapping>
+      </Extension>
+    </Extensions>
+  </UAVariable>
+  <UAVariable NodeId="ns=2;i=2762" BrowseName="2:licht_sternenhimmel_bad" ParentNodeId="ns=2;i=1134" DataType="BOOL" AccessLevel="1">
+    <DisplayName>licht_sternenhimmel_bad</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition" IsForward="true">i=63</Reference>
+    </References>
+    <Extensions>
+      <Extension>
+        <si:VariableMapping>"DB_Lichtsteuerung"."Sternenhimmel"."bad_sternenhimmel_io"</si:VariableMapping>
+      </Extension>
+    </Extensions>
+  </UAVariable>
+  <UAVariable NodeId="ns=2;i=2773" BrowseName="2:licht_sternenhimmel_schlafzimmer" ParentNodeId="ns=2;i=1134" DataType="BOOL" AccessLevel="1">
+    <DisplayName>licht_sternenhimmel_schlafzimmer</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition" IsForward="true">i=63</Reference>
+    </References>
+    <Extensions>
+      <Extension>
+        <si:VariableMapping>"DB_Lichtsteuerung"."Sternenhimmel"."schlafen_sternenhimmel_io"</si:VariableMapping>
+      </Extension>
+    </Extensions>
+  </UAVariable>
+  <UAObject NodeId="ns=2;i=1574" BrowseName="2:klima">
+    <DisplayName>klima</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition" IsForward="true">i=61</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="true">ns=2;i=1585</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="true">ns=2;i=1596</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="true">ns=2;i=1607</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="true">ns=2;i=1618</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="true">ns=2;i=1629</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="true">ns=2;i=1640</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="true">ns=2;i=1651</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="true">ns=2;i=1662</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="true">ns=2;i=1695</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="true">ns=2;i=1684</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="true">ns=2;i=1706</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="true">ns=2;i=1915</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="true">ns=2;i=1717</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="true">ns=2;i=1860</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="true">ns=2;i=1871</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="true">ns=2;i=1893</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="true">ns=2;i=1772</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="true">ns=2;i=1783</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="true">ns=2;i=1904</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="true">ns=2;i=1805</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="true">ns=2;i=1838</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="true">ns=2;i=1849</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="true">ns=2;i=1882</Reference>
+    </References>
+  </UAObject>
+  <UAVariable NodeId="ns=2;i=1585" BrowseName="2:klima_wohnzimmer_aktiv" ParentNodeId="ns=2;i=1574" DataType="BOOL" AccessLevel="3">
+    <DisplayName>klima_wohnzimmer_aktiv</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition" IsForward="true">i=63</Reference>
+    </References>
+  </UAVariable>
+  <UAVariable NodeId="ns=2;i=1596" BrowseName="2:klima_wohnzimmer_auto" ParentNodeId="ns=2;i=1574" DataType="BOOL" AccessLevel="3">
+    <DisplayName>klima_wohnzimmer_auto</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition" IsForward="true">i=63</Reference>
+    </References>
+  </UAVariable>
+  <UAVariable NodeId="ns=2;i=1607" BrowseName="2:klima_wohnzimmer_klimatisieren" ParentNodeId="ns=2;i=1574" DataType="BOOL" AccessLevel="3">
+    <DisplayName>klima_wohnzimmer_klimatisieren</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition" IsForward="true">i=63</Reference>
+    </References>
+  </UAVariable>
+  <UAVariable NodeId="ns=2;i=1618" BrowseName="2:klima_wohnzimmer_luefter" ParentNodeId="ns=2;i=1574" DataType="INT" AccessLevel="3">
+    <DisplayName>klima_wohnzimmer_luefter</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition" IsForward="true">i=63</Reference>
+    </References>
+  </UAVariable>
+  <UAVariable NodeId="ns=2;i=1629" BrowseName="2:klima_wohnzimmer_zieltemperatur" ParentNodeId="ns=2;i=1574" DataType="INT" AccessLevel="3">
+    <DisplayName>klima_wohnzimmer_zieltemperatur</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition" IsForward="true">i=63</Reference>
+    </References>
+  </UAVariable>
+  <UAVariable NodeId="ns=2;i=1640" BrowseName="2:klima_schlafzimmer_aktiv" ParentNodeId="ns=2;i=1574" DataType="BOOL" AccessLevel="3">
+    <DisplayName>klima_schlafzimmer_aktiv</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition" IsForward="true">i=63</Reference>
+    </References>
+  </UAVariable>
+  <UAVariable NodeId="ns=2;i=1651" BrowseName="2:klima_schlafzimmer_auto" ParentNodeId="ns=2;i=1574" DataType="BOOL" AccessLevel="3">
+    <DisplayName>klima_schlafzimmer_auto</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition" IsForward="true">i=63</Reference>
+    </References>
+  </UAVariable>
+  <UAVariable NodeId="ns=2;i=1662" BrowseName="2:klima_schlafzimmer_klimatisieren" ParentNodeId="ns=2;i=1574" DataType="BOOL" AccessLevel="3">
+    <DisplayName>klima_schlafzimmer_klimatisieren</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition" IsForward="true">i=63</Reference>
+    </References>
+  </UAVariable>
+  <UAVariable NodeId="ns=2;i=1695" BrowseName="2:klima_schlafzimmer_luefter" ParentNodeId="ns=2;i=1574" DataType="INT" AccessLevel="3">
+    <DisplayName>klima_schlafzimmer_luefter</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition" IsForward="true">i=63</Reference>
+    </References>
+  </UAVariable>
+  <UAVariable NodeId="ns=2;i=1684" BrowseName="2:klima_schlafzimmer_zieltemperatur" ParentNodeId="ns=2;i=1574" DataType="INT" AccessLevel="3">
+    <DisplayName>klima_schlafzimmer_zieltemperatur</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition" IsForward="true">i=63</Reference>
+    </References>
+  </UAVariable>
+  <UAVariable NodeId="ns=2;i=1706" BrowseName="2:luefter_front_aktiv" ParentNodeId="ns=2;i=1574" DataType="BOOL" AccessLevel="3">
+    <DisplayName>luefter_front_aktiv</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition" IsForward="true">i=63</Reference>
+    </References>
+  </UAVariable>
+  <UAVariable NodeId="ns=2;i=1915" BrowseName="2:luefter_front_drehzahl" ParentNodeId="ns=2;i=1574" DataType="INT" AccessLevel="3">
+    <DisplayName>luefter_front_drehzahl</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition" IsForward="true">i=63</Reference>
+    </References>
+  </UAVariable>
+  <UAVariable NodeId="ns=2;i=1717" BrowseName="2:luefter_front_zeitplan" ParentNodeId="ns=2;i=1574" DataType="BOOL" AccessLevel="3">
+    <DisplayName>luefter_front_zeitplan</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition" IsForward="true">i=63</Reference>
+    </References>
+  </UAVariable>
+  <UAVariable NodeId="ns=2;i=1860" BrowseName="2:luefter_front_zeitplan_einschalten" ParentNodeId="ns=2;i=1574" DataType="STRING" AccessLevel="3">
+    <DisplayName>luefter_front_zeitplan_einschalten</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition" IsForward="true">i=63</Reference>
+    </References>
+  </UAVariable>
+  <UAVariable NodeId="ns=2;i=1871" BrowseName="2:luefter_front_zeitplan_ausschalten" ParentNodeId="ns=2;i=1574" DataType="STRING" AccessLevel="3">
+    <DisplayName>luefter_front_zeitplan_ausschalten</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition" IsForward="true">i=63</Reference>
+    </References>
+  </UAVariable>
+  <UAVariable NodeId="ns=2;i=1893" BrowseName="2:luefter_front_zeitplan_drehzahl" ParentNodeId="ns=2;i=1574" DataType="INT" AccessLevel="3">
+    <DisplayName>luefter_front_zeitplan_drehzahl</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition" IsForward="true">i=63</Reference>
+    </References>
+  </UAVariable>
+  <UAVariable NodeId="ns=2;i=1772" BrowseName="2:luefter_schlafzimmer_aktiv" ParentNodeId="ns=2;i=1574" DataType="BOOL" AccessLevel="3">
+    <DisplayName>luefter_schlafzimmer_aktiv</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition" IsForward="true">i=63</Reference>
+    </References>
+  </UAVariable>
+  <UAVariable NodeId="ns=2;i=1783" BrowseName="2:luefter_schlafzimmer_vorhanden" ParentNodeId="ns=2;i=1574" DataType="BOOL" AccessLevel="3">
+    <DisplayName>luefter_schlafzimmer_vorhanden</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition" IsForward="true">i=63</Reference>
+    </References>
+  </UAVariable>
+  <UAVariable NodeId="ns=2;i=1904" BrowseName="2:luefter_schlafzimmer_drehzahl" ParentNodeId="ns=2;i=1574" DataType="INT" AccessLevel="3">
+    <DisplayName>luefter_schlafzimmer_drehzahl</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition" IsForward="true">i=63</Reference>
+    </References>
+  </UAVariable>
+  <UAVariable NodeId="ns=2;i=1805" BrowseName="2:luefter_schlafzimmer_zeitplan" ParentNodeId="ns=2;i=1574" DataType="BOOL" AccessLevel="3">
+    <DisplayName>luefter_schlafzimmer_zeitplan</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition" IsForward="true">i=63</Reference>
+    </References>
+  </UAVariable>
+  <UAVariable NodeId="ns=2;i=1838" BrowseName="2:luefter_schlafzimmer_einschalten" ParentNodeId="ns=2;i=1574" DataType="STRING" AccessLevel="3">
+    <DisplayName>luefter_schlafzimmer_einschalten</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition" IsForward="true">i=63</Reference>
+    </References>
+  </UAVariable>
+  <UAVariable NodeId="ns=2;i=1849" BrowseName="2:luefter_schlafzimmer_ausschalten" ParentNodeId="ns=2;i=1574" DataType="STRING" AccessLevel="3">
+    <DisplayName>luefter_schlafzimmer_ausschalten</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition" IsForward="true">i=63</Reference>
+    </References>
+  </UAVariable>
+  <UAVariable NodeId="ns=2;i=1882" BrowseName="2:luefter_schlafzimmer_zeitplan_drehzahl" ParentNodeId="ns=2;i=1574" DataType="INT" AccessLevel="3">
+    <DisplayName>luefter_schlafzimmer_zeitplan_drehzahl</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition" IsForward="true">i=63</Reference>
+    </References>
+  </UAVariable>
+  <UAObject NodeId="ns=2;i=1948" BrowseName="2:fluessigkeiten">
+    <DisplayName>fluessigkeiten</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition" IsForward="true">i=61</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="true">ns=2;i=1959</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="true">ns=2;i=2003</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="true">ns=2;i=2014</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="true">ns=2;i=2025</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="true">ns=2;i=2058</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="true">ns=2;i=2047</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="true">ns=2;i=2069</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="true">ns=2;i=2080</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="true">ns=2;i=2102</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="true">ns=2;i=2091</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="true">ns=2;i=2113</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="true">ns=2;i=2124</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="true">ns=2;i=2135</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="true">ns=2;i=2146</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="true">ns=2;i=2157</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="true">ns=2;i=2168</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="true">ns=2;i=2179</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="true">ns=2;i=2190</Reference>
+    </References>
+  </UAObject>
+  <UAVariable NodeId="ns=2;i=1959" BrowseName="2:frischwasser_stand" ParentNodeId="ns=2;i=1948" DataType="INT" AccessLevel="1">
+    <DisplayName>frischwasser_stand</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition" IsForward="true">i=63</Reference>
+    </References>
+    <Extensions>
+      <Extension>
+        <si:VariableMapping>"Tank DB"."frischwasser"</si:VariableMapping>
+      </Extension>
+    </Extensions>
+  </UAVariable>
+  <UAVariable NodeId="ns=2;i=2003" BrowseName="2:abwasser_stand" ParentNodeId="ns=2;i=1948" DataType="INT" AccessLevel="1">
+    <DisplayName>abwasser_stand</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition" IsForward="true">i=63</Reference>
+    </References>
+    <Extensions>
+      <Extension>
+        <si:VariableMapping>"Tank DB"."abwasser"</si:VariableMapping>
+      </Extension>
+    </Extensions>
+  </UAVariable>
+  <UAVariable NodeId="ns=2;i=2014" BrowseName="2:faekalien_stand" ParentNodeId="ns=2;i=1948" DataType="INT" AccessLevel="1">
+    <DisplayName>faekalien_stand</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition" IsForward="true">i=63</Reference>
+    </References>
+    <Extensions>
+      <Extension>
+        <si:VariableMapping>"Tank DB"."fäkalien"</si:VariableMapping>
+      </Extension>
+    </Extensions>
+  </UAVariable>
+  <UAVariable NodeId="ns=2;i=2025" BrowseName="2:diesel_stand" ParentNodeId="ns=2;i=1948" DataType="INT" AccessLevel="1">
+    <DisplayName>diesel_stand</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition" IsForward="true">i=63</Reference>
+    </References>
+  </UAVariable>
+  <UAVariable NodeId="ns=2;i=2058" BrowseName="2:tankheizung_status" ParentNodeId="ns=2;i=1948" DataType="INT" AccessLevel="1">
+    <DisplayName>tankheizung_status</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition" IsForward="true">i=63</Reference>
+    </References>
+  </UAVariable>
+  <UAVariable NodeId="ns=2;i=2047" BrowseName="2:tankheizung_vorhanden" ParentNodeId="ns=2;i=1948" DataType="BOOL" AccessLevel="1">
+    <DisplayName>tankheizung_vorhanden</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition" IsForward="true">i=63</Reference>
+    </References>
+  </UAVariable>
+  <UAVariable NodeId="ns=2;i=2069" BrowseName="2:wasserpumpe_status" ParentNodeId="ns=2;i=1948" DataType="INT" AccessLevel="1">
+    <DisplayName>wasserpumpe_status</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition" IsForward="true">i=63</Reference>
+    </References>
+  </UAVariable>
+  <UAVariable NodeId="ns=2;i=2080" BrowseName="2:wasserpumpe_aktiv" ParentNodeId="ns=2;i=1948" DataType="BOOL" AccessLevel="3">
+    <DisplayName>wasserpumpe_aktiv</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition" IsForward="true">i=63</Reference>
+    </References>
+    <Extensions>
+      <Extension>
+        <si:VariableMapping>"Tank DB"."wasserpu einsch"</si:VariableMapping>
+      </Extension>
+    </Extensions>
+  </UAVariable>
+  <UAVariable NodeId="ns=2;i=2102" BrowseName="2:geruchsverschluss_status" ParentNodeId="ns=2;i=1948" DataType="INT" AccessLevel="1">
+    <DisplayName>geruchsverschluss_status</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition" IsForward="true">i=63</Reference>
+    </References>
+  </UAVariable>
+  <UAVariable NodeId="ns=2;i=2091" BrowseName="2:geruchsverschluss_aktiv" ParentNodeId="ns=2;i=1948" DataType="BOOL" AccessLevel="3">
+    <DisplayName>geruchsverschluss_aktiv</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition" IsForward="true">i=63</Reference>
+    </References>
+  </UAVariable>
+  <UAVariable NodeId="ns=2;i=2113" BrowseName="2:wasserfilter_status" ParentNodeId="ns=2;i=1948" DataType="INT" AccessLevel="1">
+    <DisplayName>wasserfilter_status</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition" IsForward="true">i=63</Reference>
+    </References>
+  </UAVariable>
+  <UAVariable NodeId="ns=2;i=2124" BrowseName="2:wasserfilter_vorhanden" ParentNodeId="ns=2;i=1948" DataType="BOOL" AccessLevel="1">
+    <DisplayName>wasserfilter_vorhanden</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition" IsForward="true">i=63</Reference>
+    </References>
+  </UAVariable>
+  <UAVariable NodeId="ns=2;i=2135" BrowseName="2:wasserfilter_aktiv" ParentNodeId="ns=2;i=1948" DataType="BOOL" AccessLevel="3">
+    <DisplayName>wasserfilter_aktiv</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition" IsForward="true">i=63</Reference>
+    </References>
+  </UAVariable>
+  <UAVariable NodeId="ns=2;i=2146" BrowseName="2:wasserfilter_betriebsstunden" ParentNodeId="ns=2;i=1948" DataType="INT" AccessLevel="1">
+    <DisplayName>wasserfilter_betriebsstunden</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition" IsForward="true">i=63</Reference>
+    </References>
+  </UAVariable>
+  <UAVariable NodeId="ns=2;i=2157" BrowseName="2:ablassschieber_status" ParentNodeId="ns=2;i=1948" DataType="BOOL" AccessLevel="1">
+    <DisplayName>ablassschieber_status</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition" IsForward="true">i=63</Reference>
+    </References>
+  </UAVariable>
+  <UAVariable NodeId="ns=2;i=2168" BrowseName="2:ablassschieber_vorhanden" ParentNodeId="ns=2;i=1948" DataType="BOOL" AccessLevel="1">
+    <DisplayName>ablassschieber_vorhanden</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition" IsForward="true">i=63</Reference>
+    </References>
+  </UAVariable>
+  <UAVariable NodeId="ns=2;i=2179" BrowseName="2:ablassschieber_faekalien_aktiv" ParentNodeId="ns=2;i=1948" DataType="BOOL" AccessLevel="3">
+    <DisplayName>ablassschieber_faekalien_aktiv</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition" IsForward="true">i=63</Reference>
+    </References>
+  </UAVariable>
+  <UAVariable NodeId="ns=2;i=2190" BrowseName="2:ablassschieber_abwasser_aktiv" ParentNodeId="ns=2;i=1948" DataType="BOOL" AccessLevel="3">
+    <DisplayName>ablassschieber_abwasser_aktiv</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition" IsForward="true">i=63</Reference>
+    </References>
+  </UAVariable>
+  <UAObject NodeId="ns=2;i=2201" BrowseName="2:temperaturen">
+    <DisplayName>temperaturen</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition" IsForward="true">i=61</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="true">ns=2;i=2355</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="true">ns=2;i=2366</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="true">ns=2;i=2377</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="true">ns=2;i=2388</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="true">ns=2;i=2399</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="true">ns=2;i=2410</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="true">ns=2;i=2421</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="true">ns=2;i=2432</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="true">ns=2;i=2443</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="true">ns=2;i=2454</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="true">ns=2;i=2465</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="true">ns=2;i=2476</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="true">ns=2;i=2630</Reference>
+    </References>
+  </UAObject>
+  <UAVariable NodeId="ns=2;i=2355" BrowseName="2:temperatur_aussen" ParentNodeId="ns=2;i=2201" DataType="REAL" AccessLevel="1">
+    <DisplayName>temperatur_aussen</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition" IsForward="true">i=63</Reference>
+    </References>
+    <Extensions>
+      <Extension>
+        <si:VariableMapping>"Temperaturen DB"."aussen ist"</si:VariableMapping>
+      </Extension>
+    </Extensions>
+  </UAVariable>
+  <UAVariable NodeId="ns=2;i=2366" BrowseName="2:temperatur_frontbox" ParentNodeId="ns=2;i=2201" DataType="REAL" AccessLevel="1">
+    <DisplayName>temperatur_frontbox</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition" IsForward="true">i=63</Reference>
+    </References>
+  </UAVariable>
+  <UAVariable NodeId="ns=2;i=2377" BrowseName="2:temperatur_frontscheibe" ParentNodeId="ns=2;i=2201" DataType="REAL" AccessLevel="1">
+    <DisplayName>temperatur_frontscheibe</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition" IsForward="true">i=63</Reference>
+    </References>
+  </UAVariable>
+  <UAVariable NodeId="ns=2;i=2388" BrowseName="2:temperatur_treppe" ParentNodeId="ns=2;i=2201" DataType="REAL" AccessLevel="1">
+    <DisplayName>temperatur_treppe</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition" IsForward="true">i=63</Reference>
+    </References>
+  </UAVariable>
+  <UAVariable NodeId="ns=2;i=2399" BrowseName="2:temperatur_wohnzimmer_boden" ParentNodeId="ns=2;i=2201" DataType="REAL" AccessLevel="1">
+    <DisplayName>temperatur_wohnzimmer_boden</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition" IsForward="true">i=63</Reference>
+    </References>
+    <Extensions>
+      <Extension>
+        <si:VariableMapping>"Temperaturen DB"."boden ist_2"</si:VariableMapping>
+      </Extension>
+    </Extensions>
+  </UAVariable>
+  <UAVariable NodeId="ns=2;i=2410" BrowseName="2:temperatur_wohnzimmer" ParentNodeId="ns=2;i=2201" DataType="REAL" AccessLevel="1">
+    <DisplayName>temperatur_wohnzimmer</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition" IsForward="true">i=63</Reference>
+    </References>
+    <Extensions>
+      <Extension>
+        <si:VariableMapping>"Temperaturen DB"."wohnen ist_2"</si:VariableMapping>
+      </Extension>
+    </Extensions>
+  </UAVariable>
+  <UAVariable NodeId="ns=2;i=2421" BrowseName="2:temperatur_bad" ParentNodeId="ns=2;i=2201" DataType="REAL" AccessLevel="1">
+    <DisplayName>temperatur_bad</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition" IsForward="true">i=63</Reference>
+    </References>
+    <Extensions>
+      <Extension>
+        <si:VariableMapping>"Temperaturen DB"."bad ist_2"</si:VariableMapping>
+      </Extension>
+    </Extensions>
+  </UAVariable>
+  <UAVariable NodeId="ns=2;i=2432" BrowseName="2:temperatur_bad_heizkoerper" ParentNodeId="ns=2;i=2201" DataType="REAL" AccessLevel="1">
+    <DisplayName>temperatur_bad_heizkoerper</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition" IsForward="true">i=63</Reference>
+    </References>
+  </UAVariable>
+  <UAVariable NodeId="ns=2;i=2443" BrowseName="2:temperatur_schlafzimmer" ParentNodeId="ns=2;i=2201" DataType="REAL" AccessLevel="1">
+    <DisplayName>temperatur_schlafzimmer</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition" IsForward="true">i=63</Reference>
+    </References>
+    <Extensions>
+      <Extension>
+        <si:VariableMapping>"Temperaturen DB"."schlafen ist_2"</si:VariableMapping>
+      </Extension>
+    </Extensions>
+  </UAVariable>
+  <UAVariable NodeId="ns=2;i=2454" BrowseName="2:temperatur_waermetauscher" ParentNodeId="ns=2;i=2201" DataType="REAL" AccessLevel="1">
+    <DisplayName>temperatur_waermetauscher</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition" IsForward="true">i=63</Reference>
+    </References>
+    <Extensions>
+      <Extension>
+        <si:VariableMapping>"Temperaturen DB"."wärmetauscher ist_2"</si:VariableMapping>
+      </Extension>
+    </Extensions>
+  </UAVariable>
+  <UAVariable NodeId="ns=2;i=2465" BrowseName="2:temperatur_garage" ParentNodeId="ns=2;i=2201" DataType="REAL" AccessLevel="1">
+    <DisplayName>temperatur_garage</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition" IsForward="true">i=63</Reference>
+    </References>
+    <Extensions>
+      <Extension>
+        <si:VariableMapping>"Temperaturen DB"."garage ist_2"</si:VariableMapping>
+      </Extension>
+    </Extensions>
+  </UAVariable>
+  <UAVariable NodeId="ns=2;i=2476" BrowseName="2:temperatur_batteriefach" ParentNodeId="ns=2;i=2201" DataType="REAL" AccessLevel="1">
+    <DisplayName>temperatur_batteriefach</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition" IsForward="true">i=63</Reference>
+    </References>
+    <Extensions>
+      <Extension>
+        <si:VariableMapping>"Temperaturen DB"."batt fach ist_2"</si:VariableMapping>
+      </Extension>
+    </Extensions>
+  </UAVariable>
+  <UAVariable NodeId="ns=2;i=2630" BrowseName="2:temperatur_frischwasser" ParentNodeId="ns=2;i=2201" DataType="REAL" AccessLevel="1">
+    <DisplayName>temperatur_frischwasser</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition" IsForward="true">i=63</Reference>
+    </References>
+  </UAVariable>
+  <UAObject NodeId="ns=2;i=2487" BrowseName="2:heizungen">
+    <DisplayName>heizungen</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition" IsForward="true">i=61</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="true">ns=2;i=2498</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="true">ns=2;i=2520</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="true">ns=2;i=2531</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="true">ns=2;i=2509</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="true">ns=2;i=2575</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="true">ns=2;i=2542</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="true">ns=2;i=2586</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="true">ns=2;i=2553</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="true">ns=2;i=2619</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="true">ns=2;i=2564</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="true">ns=2;i=2608</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="true">ns=2;i=2641</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="true">ns=2;i=2652</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="true">ns=2;i=2663</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="true">ns=2;i=2674</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="true">ns=2;i=2685</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="true">ns=2;i=2696</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="true">ns=2;i=2707</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="true">ns=2;i=2718</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="true">ns=2;i=2729</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="true">ns=2;i=2740</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="true">ns=2;i=2751</Reference>
+    </References>
+  </UAObject>
+  <UAVariable NodeId="ns=2;i=2498" BrowseName="2:heizungssystem_version" ParentNodeId="ns=2;i=2487" DataType="INT" AccessLevel="1">
+    <DisplayName>heizungssystem_version</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition" IsForward="true">i=63</Reference>
+    </References>
+  </UAVariable>
+  <UAVariable NodeId="ns=2;i=2520" BrowseName="2:heizung_vollautomatik" ParentNodeId="ns=2;i=2487" DataType="BOOL" AccessLevel="3">
+    <DisplayName>heizung_vollautomatik</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition" IsForward="true">i=63</Reference>
+    </References>
+    <Extensions>
+      <Extension>
+        <si:VariableMapping>"Heizsystem_V2"."hmi_eingabe"."heizungssystem_vollautomatik"</si:VariableMapping>
+      </Extension>
+    </Extensions>
+  </UAVariable>
+  <UAVariable NodeId="ns=2;i=2531" BrowseName="2:heizung_frischwasser" ParentNodeId="ns=2;i=2487" DataType="BOOL" AccessLevel="3">
+    <DisplayName>heizung_frischwasser</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition" IsForward="true">i=63</Reference>
+    </References>
+    <Extensions>
+      <Extension>
+        <si:VariableMapping>"Heizsystem_V2"."hmi_eingabe"."frischwasser_erwaermung_erlaubt"</si:VariableMapping>
+      </Extension>
+    </Extensions>
+  </UAVariable>
+  <UAVariable NodeId="ns=2;i=2509" BrowseName="2:heizung_scheer_aktiv" ParentNodeId="ns=2;i=2487" DataType="BOOL" AccessLevel="3">
+    <DisplayName>heizung_scheer_aktiv</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition" IsForward="true">i=63</Reference>
+    </References>
+    <Extensions>
+      <Extension>
+        <si:VariableMapping>"Heizsystem_V2"."hmi_eingabe"."scheer_erlaubt"</si:VariableMapping>
+      </Extension>
+    </Extensions>
+  </UAVariable>
+  <UAVariable NodeId="ns=2;i=2575" BrowseName="2:heizung_scheer_status" ParentNodeId="ns=2;i=2487" DataType="INT" AccessLevel="1">
+    <DisplayName>heizung_scheer_status</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition" IsForward="true">i=63</Reference>
+    </References>
+  </UAVariable>
+  <UAVariable NodeId="ns=2;i=2542" BrowseName="2:heizung_webasto_1_aktiv" ParentNodeId="ns=2;i=2487" DataType="BOOL" AccessLevel="3">
+    <DisplayName>heizung_webasto_1_aktiv</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition" IsForward="true">i=63</Reference>
+    </References>
+    <Extensions>
+      <Extension>
+        <si:VariableMapping>"Heizsystem_V2"."hmi_eingabe"."webasto_9kw_erlaubt"</si:VariableMapping>
+      </Extension>
+    </Extensions>
+  </UAVariable>
+  <UAVariable NodeId="ns=2;i=2586" BrowseName="2:heizung_webasto_1_status" ParentNodeId="ns=2;i=2487" DataType="INT" AccessLevel="1">
+    <DisplayName>heizung_webasto_1_status</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition" IsForward="true">i=63</Reference>
+    </References>
+  </UAVariable>
+  <UAVariable NodeId="ns=2;i=2553" BrowseName="2:heizung_webasto_2_aktiv" ParentNodeId="ns=2;i=2487" DataType="BOOL" AccessLevel="3">
+    <DisplayName>heizung_webasto_2_aktiv</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition" IsForward="true">i=63</Reference>
+    </References>
+  </UAVariable>
+  <UAVariable NodeId="ns=2;i=2619" BrowseName="2:heizung_webasto_2_status" ParentNodeId="ns=2;i=2487" DataType="INT" AccessLevel="1">
+    <DisplayName>heizung_webasto_2_status</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition" IsForward="true">i=63</Reference>
+    </References>
+  </UAVariable>
+  <UAVariable NodeId="ns=2;i=2564" BrowseName="2:heizung_webasto_3_aktiv" ParentNodeId="ns=2;i=2487" DataType="BOOL" AccessLevel="3">
+    <DisplayName>heizung_webasto_3_aktiv</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition" IsForward="true">i=63</Reference>
+    </References>
+  </UAVariable>
+  <UAVariable NodeId="ns=2;i=2608" BrowseName="2:heizung_webasto_3_status" ParentNodeId="ns=2;i=2487" DataType="INT" AccessLevel="1">
+    <DisplayName>heizung_webasto_3_status</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition" IsForward="true">i=63</Reference>
+    </References>
+  </UAVariable>
+  <UAVariable NodeId="ns=2;i=2641" BrowseName="2:heizkreis_frontbox_aktiv" ParentNodeId="ns=2;i=2487" DataType="BOOL" AccessLevel="3">
+    <DisplayName>heizkreis_frontbox_aktiv</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition" IsForward="true">i=63</Reference>
+    </References>
+  </UAVariable>
+  <UAVariable NodeId="ns=2;i=2652" BrowseName="2:heizkreis_frontscheibe_aktiv" ParentNodeId="ns=2;i=2487" DataType="BOOL" AccessLevel="3">
+    <DisplayName>heizkreis_frontscheibe_aktiv</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition" IsForward="true">i=63</Reference>
+    </References>
+  </UAVariable>
+  <UAVariable NodeId="ns=2;i=2663" BrowseName="2:heizkreis_treppe_aktiv" ParentNodeId="ns=2;i=2487" DataType="BOOL" AccessLevel="3">
+    <DisplayName>heizkreis_treppe_aktiv</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition" IsForward="true">i=63</Reference>
+    </References>
+  </UAVariable>
+  <UAVariable NodeId="ns=2;i=2674" BrowseName="2:heizkreis_wohnzimmer_boden_aktiv" ParentNodeId="ns=2;i=2487" DataType="BOOL" AccessLevel="3">
+    <DisplayName>heizkreis_wohnzimmer_boden_aktiv</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition" IsForward="true">i=63</Reference>
+    </References>
+    <Extensions>
+      <Extension>
+        <si:VariableMapping>"Heizsystem_V2"."heizkreise"."heizkreis_boden"."heizkreis_boden_aktiviert"</si:VariableMapping>
+      </Extension>
+    </Extensions>
+  </UAVariable>
+  <UAVariable NodeId="ns=2;i=2685" BrowseName="2:heizkreis_wohnzimmer_aktiv" ParentNodeId="ns=2;i=2487" DataType="BOOL" AccessLevel="3">
+    <DisplayName>heizkreis_wohnzimmer_aktiv</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition" IsForward="true">i=63</Reference>
+    </References>
+    <Extensions>
+      <Extension>
+        <si:VariableMapping>"Heizsystem_V2"."heizkreise"."heizkreis_wohnen"."heizkreis_wohnen_aktiviert"</si:VariableMapping>
+      </Extension>
+    </Extensions>
+  </UAVariable>
+  <UAVariable NodeId="ns=2;i=2696" BrowseName="2:heizkreis_bad_aktiv" ParentNodeId="ns=2;i=2487" DataType="BOOL" AccessLevel="3">
+    <DisplayName>heizkreis_bad_aktiv</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition" IsForward="true">i=63</Reference>
+    </References>
+    <Extensions>
+      <Extension>
+        <si:VariableMapping>"Heizsystem_V2"."heizkreise"."heizkreis_bad"."heizkreis_bad_aktiviert"</si:VariableMapping>
+      </Extension>
+    </Extensions>
+  </UAVariable>
+  <UAVariable NodeId="ns=2;i=2707" BrowseName="2:heizkreis_bad_heizkoerper_aktiv" ParentNodeId="ns=2;i=2487" DataType="BOOL" AccessLevel="3">
+    <DisplayName>heizkreis_bad_heizkoerper_aktiv</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition" IsForward="true">i=63</Reference>
+    </References>
+    <Extensions>
+      <Extension>
+        <si:VariableMapping>"Heizsystem_V2"."heizkreise"."heizkreis_toilette"."heizkreis_toilette_aktiviert"</si:VariableMapping>
+      </Extension>
+    </Extensions>
+  </UAVariable>
+  <UAVariable NodeId="ns=2;i=2718" BrowseName="2:heizkreis_schlafzimmer_aktiv" ParentNodeId="ns=2;i=2487" DataType="BOOL" AccessLevel="3">
+    <DisplayName>heizkreis_schlafzimmer_aktiv</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition" IsForward="true">i=63</Reference>
+    </References>
+    <Extensions>
+      <Extension>
+        <si:VariableMapping>"Heizsystem_V2"."heizkreise"."heizkreis_schlafzimmer"."heizkreis_schlafzimmer_aktiviert"</si:VariableMapping>
+      </Extension>
+    </Extensions>
+  </UAVariable>
+  <UAVariable NodeId="ns=2;i=2729" BrowseName="2:heizkreis_garage_aktiv" ParentNodeId="ns=2;i=2487" DataType="BOOL" AccessLevel="3">
+    <DisplayName>heizkreis_garage_aktiv</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition" IsForward="true">i=63</Reference>
+    </References>
+    <Extensions>
+      <Extension>
+        <si:VariableMapping>"Heizsystem_V2"."heizkreise"."heizkreis_garage"."heizkreis_garage_aktiviert"</si:VariableMapping>
+      </Extension>
+    </Extensions>
+  </UAVariable>
+  <UAVariable NodeId="ns=2;i=2740" BrowseName="2:heizkreis_tanks_aktiv" ParentNodeId="ns=2;i=2487" DataType="BOOL" AccessLevel="3">
+    <DisplayName>heizkreis_tanks_aktiv</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition" IsForward="true">i=63</Reference>
+    </References>
+    <Extensions>
+      <Extension>
+        <si:VariableMapping>"Heizsystem_V2"."heizkreise"."heizkreis_tanks"."heizkreis_tanks_aktiviert"</si:VariableMapping>
+      </Extension>
+    </Extensions>
+  </UAVariable>
+  <UAVariable NodeId="ns=2;i=2751" BrowseName="2:heizkreis_batterien_aktiv" ParentNodeId="ns=2;i=2487" DataType="BOOL" AccessLevel="3">
+    <DisplayName>heizkreis_batterien_aktiv</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition" IsForward="true">i=63</Reference>
+    </References>
+    <Extensions>
+      <Extension>
+        <si:VariableMapping>"Heizsystem_V2"."heizkreise"."heizkreis_batterien"."heizkreis_batterien_aktiviert"</si:VariableMapping>
+      </Extension>
+    </Extensions>
+  </UAVariable>
+  <UADataType NodeId="ns=1;i=3001" BrowseName="1:BYTE">
+    <DisplayName>BYTE</DisplayName>
+    <References>
+      <Reference ReferenceType="HasSubtype" IsForward="false">i=3</Reference>
+    </References>
+  </UADataType>
+  <UADataType NodeId="ns=1;i=3002" BrowseName="1:WORD">
+    <DisplayName>WORD</DisplayName>
+    <References>
+      <Reference ReferenceType="HasSubtype" IsForward="false">i=5</Reference>
+    </References>
+  </UADataType>
+  <UADataType NodeId="ns=1;i=3003" BrowseName="1:DWORD">
+    <DisplayName>DWORD</DisplayName>
+    <References>
+      <Reference ReferenceType="HasSubtype" IsForward="false">i=7</Reference>
+    </References>
+  </UADataType>
+  <UADataType NodeId="ns=1;i=3004" BrowseName="1:LWORD">
+    <DisplayName>LWORD</DisplayName>
+    <References>
+      <Reference ReferenceType="HasSubtype" IsForward="false">i=9</Reference>
+    </References>
+  </UADataType>
+  <UADataType NodeId="ns=1;i=3005" BrowseName="1:S5TIME">
+    <DisplayName>S5TIME</DisplayName>
+    <References>
+      <Reference ReferenceType="HasSubtype" IsForward="false">i=5</Reference>
+    </References>
+  </UADataType>
+  <UADataType NodeId="ns=1;i=3006" BrowseName="1:TIME">
+    <DisplayName>TIME</DisplayName>
+    <References>
+      <Reference ReferenceType="HasSubtype" IsForward="false">i=6</Reference>
+    </References>
+  </UADataType>
+  <UADataType NodeId="ns=1;i=3007" BrowseName="1:LTIME">
+    <DisplayName>LTIME</DisplayName>
+    <References>
+      <Reference ReferenceType="HasSubtype" IsForward="false">i=8</Reference>
+    </References>
+  </UADataType>
+  <UADataType NodeId="ns=1;i=3008" BrowseName="1:DATE">
+    <DisplayName>DATE</DisplayName>
+    <References>
+      <Reference ReferenceType="HasSubtype" IsForward="false">i=5</Reference>
+    </References>
+  </UADataType>
+  <UADataType NodeId="ns=1;i=3011" BrowseName="1:DT">
+    <DisplayName>DT</DisplayName>
+    <References>
+      <Reference ReferenceType="HasSubtype" IsForward="false">i=3</Reference>
+    </References>
+  </UADataType>
+  <UADataType NodeId="ns=1;i=3009" BrowseName="1:TOD">
+    <DisplayName>TOD</DisplayName>
+    <References>
+      <Reference ReferenceType="HasSubtype" IsForward="false">i=7</Reference>
+    </References>
+  </UADataType>
+  <UADataType NodeId="ns=1;i=3010" BrowseName="1:LTOD">
+    <DisplayName>LTOD</DisplayName>
+    <References>
+      <Reference ReferenceType="HasSubtype" IsForward="false">i=9</Reference>
+    </References>
+  </UADataType>
+  <UADataType NodeId="ns=1;i=3067" BrowseName="1:POINTER">
+    <DisplayName>POINTER</DisplayName>
+    <References>
+      <Reference ReferenceType="HasSubtype" IsForward="false">i=3</Reference>
+    </References>
+  </UADataType>
+  <UADataType NodeId="ns=1;i=3065" BrowseName="1:ANY">
+    <DisplayName>ANY</DisplayName>
+    <References>
+      <Reference ReferenceType="HasSubtype" IsForward="true">ns=1;i=3066</Reference>
+      <Reference ReferenceType="HasSubtype" IsForward="false">i=3</Reference>
+    </References>
+  </UADataType>
+  <UADataType NodeId="ns=1;i=3066" BrowseName="1:REMOTE">
+    <DisplayName>REMOTE</DisplayName>
+  </UADataType>
+  <UADataType NodeId="ns=1;i=3012" BrowseName="1:CHAR">
+    <DisplayName>CHAR</DisplayName>
+    <References>
+      <Reference ReferenceType="HasSubtype" IsForward="false">i=3</Reference>
+    </References>
+  </UADataType>
+  <UADataType NodeId="ns=1;i=3013" BrowseName="1:WCHAR">
+    <DisplayName>WCHAR</DisplayName>
+    <References>
+      <Reference ReferenceType="HasSubtype" IsForward="false">i=5</Reference>
+    </References>
+  </UADataType>
+  <UADataType NodeId="ns=1;i=3014" BrowseName="1:STRING">
+    <DisplayName>STRING</DisplayName>
+    <References>
+      <Reference ReferenceType="HasSubtype" IsForward="false">i=12</Reference>
+    </References>
+  </UADataType>
+  <UADataType NodeId="ns=1;i=3015" BrowseName="1:TIMER">
+    <DisplayName>TIMER</DisplayName>
+    <References>
+      <Reference ReferenceType="HasSubtype" IsForward="false">i=5</Reference>
+    </References>
+  </UADataType>
+  <UADataType NodeId="ns=1;i=3016" BrowseName="1:COUNTER">
+    <DisplayName>COUNTER</DisplayName>
+    <References>
+      <Reference ReferenceType="HasSubtype" IsForward="false">i=5</Reference>
+    </References>
+  </UADataType>
+  <UADataType NodeId="ns=1;i=3019" BrowseName="1:BLOCK_DB">
+    <DisplayName>BLOCK_DB</DisplayName>
+    <References>
+      <Reference ReferenceType="HasSubtype" IsForward="false">i=5</Reference>
+    </References>
+  </UADataType>
+  <UADataType NodeId="ns=1;i=3018" BrowseName="1:BLOCK_FB">
+    <DisplayName>BLOCK_FB</DisplayName>
+    <References>
+      <Reference ReferenceType="HasSubtype" IsForward="false">i=5</Reference>
+    </References>
+  </UADataType>
+  <UADataType NodeId="ns=1;i=3017" BrowseName="1:BLOCK_FC">
+    <DisplayName>BLOCK_FC</DisplayName>
+    <References>
+      <Reference ReferenceType="HasSubtype" IsForward="false">i=5</Reference>
+    </References>
+  </UADataType>
+  <UADataType NodeId="ns=1;i=3020" BrowseName="1:BLOCK_SDB">
+    <DisplayName>BLOCK_SDB</DisplayName>
+    <References>
+      <Reference ReferenceType="HasSubtype" IsForward="false">i=5</Reference>
+    </References>
+  </UADataType>
+  <UADataType NodeId="ns=1;i=3024" BrowseName="1:HW_ANY">
+    <DisplayName>HW_ANY</DisplayName>
+    <References>
+      <Reference ReferenceType="HasSubtype" IsForward="true">ns=1;i=3034</Reference>
+      <Reference ReferenceType="HasSubtype" IsForward="true">ns=1;i=3035</Reference>
+      <Reference ReferenceType="HasSubtype" IsForward="true">ns=1;i=3033</Reference>
+      <Reference ReferenceType="HasSubtype" IsForward="false">i=5</Reference>
+    </References>
+  </UADataType>
+  <UADataType NodeId="ns=1;i=3034" BrowseName="1:HW_IO">
+    <DisplayName>HW_IO</DisplayName>
+    <References>
+      <Reference ReferenceType="HasSubtype" IsForward="true">ns=1;i=3037</Reference>
+      <Reference ReferenceType="HasSubtype" IsForward="true">ns=1;i=3036</Reference>
+    </References>
+  </UADataType>
+  <UADataType NodeId="ns=1;i=3035" BrowseName="1:HW_IOSYSTEM">
+    <DisplayName>HW_IOSYSTEM</DisplayName>
+  </UADataType>
+  <UADataType NodeId="ns=1;i=3037" BrowseName="1:HW_MODULE">
+    <DisplayName>HW_MODULE</DisplayName>
+  </UADataType>
+  <UADataType NodeId="ns=1;i=3036" BrowseName="1:HW_SUBMODULE">
+    <DisplayName>HW_SUBMODULE</DisplayName>
+    <References>
+      <Reference ReferenceType="HasSubtype" IsForward="true">ns=1;i=3039</Reference>
+      <Reference ReferenceType="HasSubtype" IsForward="true">ns=1;i=3040</Reference>
+      <Reference ReferenceType="HasSubtype" IsForward="true">ns=1;i=3041</Reference>
+      <Reference ReferenceType="HasSubtype" IsForward="true">ns=1;i=3042</Reference>
+      <Reference ReferenceType="HasSubtype" IsForward="true">ns=1;i=3058</Reference>
+      <Reference ReferenceType="HasSubtype" IsForward="true">ns=1;i=3038</Reference>
+    </References>
+  </UADataType>
+  <UADataType NodeId="ns=1;i=3039" BrowseName="1:HW_IEPORT">
+    <DisplayName>HW_IEPORT</DisplayName>
+  </UADataType>
+  <UADataType NodeId="ns=1;i=3040" BrowseName="1:HW_HSC">
+    <DisplayName>HW_HSC</DisplayName>
+  </UADataType>
+  <UADataType NodeId="ns=1;i=3041" BrowseName="1:HW_PWM">
+    <DisplayName>HW_PWM</DisplayName>
+  </UADataType>
+  <UADataType NodeId="ns=1;i=3042" BrowseName="1:HW_PTO">
+    <DisplayName>HW_PTO</DisplayName>
+  </UADataType>
+  <UADataType NodeId="ns=1;i=3058" BrowseName="1:PORT">
+    <DisplayName>PORT</DisplayName>
+  </UADataType>
+  <UADataType NodeId="ns=1;i=3038" BrowseName="1:HW_INTERFACE">
+    <DisplayName>HW_INTERFACE</DisplayName>
+    <References>
+      <Reference ReferenceType="HasSubtype" IsForward="true">ns=1;i=3044</Reference>
+    </References>
+  </UADataType>
+  <UADataType NodeId="ns=1;i=3033" BrowseName="1:HW_DEVICE">
+    <DisplayName>HW_DEVICE</DisplayName>
+    <References>
+      <Reference ReferenceType="HasSubtype" IsForward="true">ns=1;i=3045</Reference>
+    </References>
+  </UADataType>
+  <UADataType NodeId="ns=1;i=3044" BrowseName="1:HW_DPMASTER">
+    <DisplayName>HW_DPMASTER</DisplayName>
+  </UADataType>
+  <UADataType NodeId="ns=1;i=3045" BrowseName="1:HW_DPSLAVE">
+    <DisplayName>HW_DPSLAVE</DisplayName>
+  </UADataType>
+  <UADataType NodeId="ns=1;i=3026" BrowseName="1:AOM_IDENT">
+    <DisplayName>AOM_IDENT</DisplayName>
+    <References>
+      <Reference ReferenceType="HasSubtype" IsForward="true">ns=1;i=3046</Reference>
+      <Reference ReferenceType="HasSubtype" IsForward="false">i=7</Reference>
+    </References>
+  </UADataType>
+  <UADataType NodeId="ns=1;i=3046" BrowseName="1:EVENT_ANY">
+    <DisplayName>EVENT_ANY</DisplayName>
+    <References>
+      <Reference ReferenceType="HasSubtype" IsForward="true">ns=1;i=3047</Reference>
+    </References>
+  </UADataType>
+  <UADataType NodeId="ns=1;i=3047" BrowseName="1:EVENT_ATT">
+    <DisplayName>EVENT_ATT</DisplayName>
+    <References>
+      <Reference ReferenceType="HasSubtype" IsForward="true">ns=1;i=3048</Reference>
+    </References>
+  </UADataType>
+  <UADataType NodeId="ns=1;i=3048" BrowseName="1:EVENT_HWINT">
+    <DisplayName>EVENT_HWINT</DisplayName>
+  </UADataType>
+  <UADataType NodeId="ns=1;i=3027" BrowseName="1:OB_ANY">
+    <DisplayName>OB_ANY</DisplayName>
+    <References>
+      <Reference ReferenceType="HasSubtype" IsForward="true">ns=1;i=3051</Reference>
+      <Reference ReferenceType="HasSubtype" IsForward="true">ns=1;i=3049</Reference>
+      <Reference ReferenceType="HasSubtype" IsForward="true">ns=1;i=3055</Reference>
+      <Reference ReferenceType="HasSubtype" IsForward="true">ns=1;i=3053</Reference>
+      <Reference ReferenceType="HasSubtype" IsForward="true">ns=1;i=3057</Reference>
+      <Reference ReferenceType="HasSubtype" IsForward="true">ns=1;i=3056</Reference>
+      <Reference ReferenceType="HasSubtype" IsForward="true">ns=1;i=3050</Reference>
+      <Reference ReferenceType="HasSubtype" IsForward="true">ns=1;i=3052</Reference>
+      <Reference ReferenceType="HasSubtype" IsForward="false">i=4</Reference>
+    </References>
+  </UADataType>
+  <UADataType NodeId="ns=1;i=3051" BrowseName="1:OB_CYCLIC">
+    <DisplayName>OB_CYCLIC</DisplayName>
+  </UADataType>
+  <UADataType NodeId="ns=1;i=3049" BrowseName="1:OB_DELAY">
+    <DisplayName>OB_DELAY</DisplayName>
+  </UADataType>
+  <UADataType NodeId="ns=1;i=3055" BrowseName="1:OB_DIAG">
+    <DisplayName>OB_DIAG</DisplayName>
+  </UADataType>
+  <UADataType NodeId="ns=1;i=3053" BrowseName="1:OB_PCYCLE">
+    <DisplayName>OB_PCYCLE</DisplayName>
+  </UADataType>
+  <UADataType NodeId="ns=1;i=3057" BrowseName="1:OB_STARTUP">
+    <DisplayName>OB_STARTUP</DisplayName>
+  </UADataType>
+  <UADataType NodeId="ns=1;i=3056" BrowseName="1:OB_TIMEERROR">
+    <DisplayName>OB_TIMEERROR</DisplayName>
+  </UADataType>
+  <UADataType NodeId="ns=1;i=3050" BrowseName="1:OB_TOD">
+    <DisplayName>OB_TOD</DisplayName>
+  </UADataType>
+  <UADataType NodeId="ns=1;i=3052" BrowseName="1:OB_ATT">
+    <DisplayName>OB_ATT</DisplayName>
+    <References>
+      <Reference ReferenceType="HasSubtype" IsForward="true">ns=1;i=3054</Reference>
+    </References>
+  </UADataType>
+  <UADataType NodeId="ns=1;i=3054" BrowseName="1:OB_HWINT">
+    <DisplayName>OB_HWINT</DisplayName>
+  </UADataType>
+  <UADataType NodeId="ns=1;i=3028" BrowseName="1:RTM">
+    <DisplayName>RTM</DisplayName>
+    <References>
+      <Reference ReferenceType="HasSubtype" IsForward="false">i=5</Reference>
+    </References>
+  </UADataType>
+  <UADataType NodeId="ns=1;i=3029" BrowseName="1:PIP">
+    <DisplayName>PIP</DisplayName>
+    <References>
+      <Reference ReferenceType="HasSubtype" IsForward="false">i=5</Reference>
+    </References>
+  </UADataType>
+  <UADataType NodeId="ns=1;i=3030" BrowseName="1:CONN_ANY">
+    <DisplayName>CONN_ANY</DisplayName>
+    <References>
+      <Reference ReferenceType="HasSubtype" IsForward="true">ns=1;i=3060</Reference>
+      <Reference ReferenceType="HasSubtype" IsForward="true">ns=1;i=3059</Reference>
+      <Reference ReferenceType="HasSubtype" IsForward="false">i=5</Reference>
+    </References>
+  </UADataType>
+  <UADataType NodeId="ns=1;i=3060" BrowseName="1:CONN_OUC">
+    <DisplayName>CONN_OUC</DisplayName>
+  </UADataType>
+  <UADataType NodeId="ns=1;i=3059" BrowseName="1:CONN_PRG">
+    <DisplayName>CONN_PRG</DisplayName>
+  </UADataType>
+  <UADataType NodeId="ns=1;i=3031" BrowseName="1:CONN_R_ID">
+    <DisplayName>CONN_R_ID</DisplayName>
+    <References>
+      <Reference ReferenceType="HasSubtype" IsForward="false">i=7</Reference>
+    </References>
+  </UADataType>
+  <UADataType NodeId="ns=1;i=3032" BrowseName="1:DB_ANY">
+    <DisplayName>DB_ANY</DisplayName>
+    <References>
+      <Reference ReferenceType="HasSubtype" IsForward="true">ns=1;i=3062</Reference>
+      <Reference ReferenceType="HasSubtype" IsForward="true">ns=1;i=3061</Reference>
+      <Reference ReferenceType="HasSubtype" IsForward="false">i=5</Reference>
+    </References>
+  </UADataType>
+  <UADataType NodeId="ns=1;i=3062" BrowseName="1:DB_DYN">
+    <DisplayName>DB_DYN</DisplayName>
+  </UADataType>
+  <UADataType NodeId="ns=1;i=3061" BrowseName="1:DB_WWW">
+    <DisplayName>DB_WWW</DisplayName>
+  </UADataType>
+  <UADataType NodeId="ns=1;i=3400" BrowseName="1:SimaticStructures" IsAbstract="true">
+    <DisplayName>SimaticStructures</DisplayName>
+    <References>
+      <Reference ReferenceType="HasSubtype" IsForward="false">i=22</Reference>
+    </References>
+  </UADataType>
+  <UADataType NodeId="ns=1;i=3500" BrowseName="1:SimaticSystemStructures" IsAbstract="true">
+    <DisplayName>SimaticSystemStructures</DisplayName>
+    <References>
+      <Reference ReferenceType="HasSubtype" IsForward="false">i=22</Reference>
+    </References>
+  </UADataType>
+  <UADataType NodeId="ns=1;i=3064" BrowseName="1:SimaticVersion">
+    <DisplayName>SimaticVersion</DisplayName>
+    <References>
+      <Reference ReferenceType="HasEncoding" IsForward="true">ns=1;i=5001</Reference>
+      <Reference ReferenceType="HasSubtype" IsForward="false">i=22</Reference>
+    </References>
+    <Definition Name="1:SimaticVersion">
+      <Field Name="Major" DataType="i=6" />
+      <Field Name="Minor" DataType="i=6" />
+      <Field Name="Build" DataType="i=6" />
+    </Definition>
+  </UADataType>
+</UANodeSet>
